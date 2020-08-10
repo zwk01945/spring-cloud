@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.example</groupId>
+    <artifactId>cloud</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <description>全部模块的父类,做模块依赖</description>
+
+    <!--全局版本号-->
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.plugin.version>2.3.1.RELEASE</maven.plugin.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <logbok.version>1.18.12</logbok.version>
+        <jackson.version>2.11.2</jackson.version>
+        <commons.pool2.version>2.8.0</commons.pool2.version>
+        <commons.lang3.version>3.10</commons.lang3.version>
+        <commons.io.version>2.7</commons.io.version>
+        <fastjson.version>1.2.72</fastjson.version>
+        <spring.web.version>2.3.0.RELEASE</spring.web.version>
+        <aliyun.core.version>4.5.3</aliyun.core.version>
+        <aliyun.dysmsapi.version>2.1.0</aliyun.dysmsapi.version>
+        <spring-boot.version>2.3.0.RELEASE</spring-boot.version>
+        <spring-cloud-alibaba.version>2.2.1.RELEASE</spring-cloud-alibaba.version>
+        <openfeign.version>2.2.4.RELEASE</openfeign.version>
+    </properties>
+
+
+    <!--子模块-->
+    <modules>
+        <module>spring-cloud-common</module> <!--公共模块-->
+        <module>spring-cloud-msgpush</module>
+        <module>spring-cloud-web</module>
+    </modules>
+</project>
