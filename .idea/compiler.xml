@@ -9,6 +9,7 @@
         <module name="spring-cloud-msgpush" />
         <module name="spring-cloud-common" />
         <module name="spring-cloud-web" />
+        <module name="spring-cloud-minio" />
       </profile>
     </annotationProcessing>
   </component>

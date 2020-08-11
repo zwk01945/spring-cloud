@@ -29,6 +29,9 @@
         <spring-boot.version>2.3.0.RELEASE</spring-boot.version>
         <spring-cloud-alibaba.version>2.2.1.RELEASE</spring-cloud-alibaba.version>
         <openfeign.version>2.2.4.RELEASE</openfeign.version>
+        <websocket.version>2.3.0.RELEASE</websocket.version>
+        <netty.version>4.1.50.Final</netty.version>
+        <minio.version>7.1.0</minio.version>
     </properties>
 
 
@@ -37,5 +40,6 @@
         <module>spring-cloud-common</module> <!--公共模块-->
         <module>spring-cloud-msgpush</module>
         <module>spring-cloud-web</module>
+        <module>spring-cloud-minio</module>
     </modules>
 </project>

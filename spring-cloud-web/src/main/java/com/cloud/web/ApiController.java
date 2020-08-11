@@ -1,18 +1,19 @@
 package com.cloud.web;
 
+import com.cloud.bean.ResultObject;
+import com.aliyuncs.CommonResponse;
 import com.cloud.web.feign.EchoService;
+import com.cloud.web.feign.SocketService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**************************************************************
  ***       S  T  A  G  E    多模块依赖项目                    ***
  **************************************************************
  *                                                            *
- *         Project Name : cloud             *
+ *         Project Name : cloud                               *
  *                                                            *
- *         File Name : ApiController.java                           *
+ *         File Name : ApiController.java                     *
  *                                                            *
  *         Programmer : Mr.zhang                              *
  *                                                            *
@@ -27,16 +28,43 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ApiController {
 
+    private EchoService echoService;
 
-    private EchoService FeignService;
+    private SocketService socketService;
+    @Autowired
+    public void setSocketService(SocketService socketService) {
+        this.socketService = socketService;
+    }
 
     @Autowired
-    public void setFeignService(EchoService feignService) {
-        FeignService = feignService;
+    public void setEchoService(EchoService echoService) {
+        this.echoService = echoService;
     }
+
 
     @GetMapping(value = "/echo/{str}")
     public String echo(@PathVariable("str") String str) {
-        return FeignService.echo(str);
+        return echoService.echo(str);
+    }
+    @PostMapping(value = "/msg/send")
+    public CommonResponse send(@RequestParam("phone") String phone, @RequestParam("data") String data, @RequestParam("code") String code){
+       return echoService.send(phone,data,code);
+    }
+
+    @PostMapping(value = "/msg/query")
+    public CommonResponse querySendDetails(@RequestParam("phone")String phone,@RequestParam("date") String date,
+                                    @RequestParam("currentPage")String currentPage,
+                                    @RequestParam("pageSize")String pageSize){
+        return echoService.querySendDetails(phone,date,currentPage,pageSize);
+    }
+
+    @GetMapping("/socket/send")
+    public ResultObject sendMessage(@RequestParam("name") String name, @RequestParam("message") String message){
+       return socketService.sendMessage(name,message);
+    }
+
+    @GetMapping("/socket/sendAll")
+    ResultObject sendAllMessage(@RequestParam("message") String message){
+        return socketService.sendAllMessage(message);
     }
 }

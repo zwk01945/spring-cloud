@@ -5,13 +5,17 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.cloud.*")
 @EnableDiscoveryClient
 @EnableFeignClients
 public class WebApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(WebApplication.class, args);
+        try {
+            SpringApplication.run(WebApplication.class, args);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
 }

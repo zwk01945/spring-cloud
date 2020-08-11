@@ -52,7 +52,7 @@ debug：当此属性设置为true时，将打印出logback内部日志信息，�
     false：表示只用当前logger的appender-ref，true：
     表示当前logger的appender-ref和rootLogger的appender-ref都有效    -->
     <!-- app logger -->
-    <logger name="com.example" level="debug"/>
+    <logger name="com.cloud" level="debug"/>
     <logger name="com.example.msgpush.dao" level="trace"/>
     <!--myibatis log configure-->
     <logger name="com.demo.bi" level="debug"/>
