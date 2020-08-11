@@ -1,4 +1,5 @@
 com\cloud\util\date\DateConstant.class
+com\cloud\aop\RedisAspect.class
 com\cloud\handler\DefenseUtil.class
 com\cloud\exception\MyException.class
 com\cloud\bean\DsProperties.class
@@ -6,8 +7,10 @@ com\cloud\exception\GlobalException.class
 com\cloud\handler\DateFormatter.class
 com\cloud\bean\msg\QueryParam.class
 com\cloud\bean\msg\QueryParamBatch.class
+com\cloud\aop\annotation\CacheRedis.class
 com\cloud\util\file\FileConstant.class
 com\cloud\handler\WebConfig.class
+com\cloud\util\redis\RedisUtils.class
 com\cloud\properter\Config.class
 com\cloud\util\file\FileUtil.class
 com\cloud\bean\PolicyType.class

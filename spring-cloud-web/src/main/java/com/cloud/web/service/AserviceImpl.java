@@ -1,50 +1,31 @@
-package bean;
+package com.cloud.web.service;
+
+import com.cloud.aop.annotation.CacheRedis;
+import org.springframework.stereotype.Service;
 
 /**************************************************************
  ***       S  T  A  G  E    多模块依赖项目                    ***
  **************************************************************
  *                                                            *
- *         Project Name : base             *
+ *         Project Name : cloud             *
  *                                                            *
- *         File Name : PolicyType.java                           *
+ *         File Name : AserviceImpl.java                           *
  *                                                            *
  *         Programmer : Mr.zhang                              *
  *                                                            *
- *         Start Date : 2020/8/3 15:19                       *
+ *         Start Date : 2020/8/11 17:46                       *
  *                                                            *
- *         Last Update : 2020/8/3 15:19                      *
+ *         Last Update : 2020/8/11 17:46                      *
  *                                                            *
  *------------------------------------------------------------*
  * Functions:                                                 *
- *   安全级别枚举                                               *
+ *   Get_Build_Frame_Count -- Fetches the number of frames in *
  * - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
-public enum PolicyType {
-
-    READ_ONLY("Read Only",1),
-    WRITE_ONLY("Write Only",2),
-    READ_AND_WRITE("Read and Write ",3);
-
-    private String name;
-    private Integer id;
-
-    PolicyType(String name, Integer id) {
-        this.name = name;
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
+@Service("aservice")
+public class AserviceImpl implements Aservice {
+    @Override
+    @CacheRedis("ICP_CODE1")
+    public String get() {
+        return "hello";
     }
 }

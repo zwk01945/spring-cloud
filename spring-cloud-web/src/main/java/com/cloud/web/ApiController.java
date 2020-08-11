@@ -1,10 +1,14 @@
 package com.cloud.web;
 
+import com.cloud.aop.annotation.CacheRedis;
 import com.cloud.bean.ResultObject;
 import com.aliyuncs.CommonResponse;
 import com.cloud.web.feign.EchoService;
 import com.cloud.web.feign.SocketService;
+import com.cloud.web.service.Aservice;
+import com.cloud.web.service.AserviceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.web.bind.annotation.*;
 
 /**************************************************************
@@ -31,6 +35,9 @@ public class ApiController {
     private EchoService echoService;
 
     private SocketService socketService;
+    @Autowired
+    Aservice aservice;
+
     @Autowired
     public void setSocketService(SocketService socketService) {
         this.socketService = socketService;
@@ -67,4 +74,9 @@ public class ApiController {
     ResultObject sendAllMessage(@RequestParam("message") String message){
         return socketService.sendAllMessage(message);
     }
+    @GetMapping("/redis")
+    public void get1() {
+        aservice.get();
+    }
+
 }
