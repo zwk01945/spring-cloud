@@ -10,6 +10,7 @@
         <module name="spring-cloud-common" />
         <module name="spring-cloud-web" />
         <module name="spring-cloud-minio" />
+        <module name="spring-cloud-masterservice" />
       </profile>
     </annotationProcessing>
   </component>

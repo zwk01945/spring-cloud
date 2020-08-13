@@ -32,6 +32,10 @@
         <websocket.version>2.3.0.RELEASE</websocket.version>
         <netty.version>4.1.50.Final</netty.version>
         <minio.version>7.1.0</minio.version>
+        <mysql.version>8.0.20</mysql.version>
+        <druid.version>1.1.23</druid.version>
+        <mybatisplus.version>3.3.2</mybatisplus.version>
+        <mybatis-freemarker.version>2.3.30</mybatis-freemarker.version>
     </properties>
 
 
@@ -41,5 +45,6 @@
         <module>spring-cloud-msgpush</module>
         <module>spring-cloud-web</module>
         <module>spring-cloud-minio</module>
+        <module>spring-cloud-masterservice</module>
     </modules>
 </project>

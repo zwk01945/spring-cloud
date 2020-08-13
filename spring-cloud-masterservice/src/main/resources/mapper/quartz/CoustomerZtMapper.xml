@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cloud.springcloudmasterservice.mapper.CoustomerZtMapper">
+
+    <select id="selectJoin" resultType="com.cloud.bean.ohters.CoustomerZt">
+	SELECT * FROM coustomer_zt as coustomer
+	left join test_code as test
+	on coustomer.ID = test.ID
+	where coustomer.ID &lt;= 100
+    </select>
+</mapper>

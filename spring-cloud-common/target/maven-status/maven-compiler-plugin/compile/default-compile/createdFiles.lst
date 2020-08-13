@@ -2,7 +2,6 @@ com\cloud\util\date\DateConstant.class
 com\cloud\aop\RedisAspect.class
 com\cloud\handler\DefenseUtil.class
 com\cloud\exception\MyException.class
-com\cloud\bean\DsProperties.class
 com\cloud\exception\GlobalException.class
 com\cloud\handler\DateFormatter.class
 com\cloud\bean\msg\QueryParam.class
@@ -17,6 +16,7 @@ com\cloud\bean\PolicyType.class
 com\cloud\bean\ResultObject.class
 com\cloud\handler\DefenseInterceptor.class
 com\cloud\bean\msg\TemplateCode.class
+com\cloud\bean\properties\DsProperties.class
 com\cloud\util\date\DateUtil.class
 com\cloud\properter\DsProperter.class
 com\cloud\controller\BaseController.class

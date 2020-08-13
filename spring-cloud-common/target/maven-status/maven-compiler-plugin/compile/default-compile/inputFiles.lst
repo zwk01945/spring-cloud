@@ -1,5 +1,4 @@
 D:\projectsources\cloud\spring-cloud-common\src\main\java\com\cloud\bean\msg\TemplateCode.java
-D:\projectsources\cloud\spring-cloud-common\src\main\java\com\cloud\bean\DsProperties.java
 D:\projectsources\cloud\spring-cloud-common\src\main\java\com\cloud\exception\MyException.java
 D:\projectsources\cloud\spring-cloud-common\src\main\java\com\cloud\exception\GlobalException.java
 D:\projectsources\cloud\spring-cloud-common\src\main\java\com\cloud\bean\ResultObject.java
@@ -18,5 +17,6 @@ D:\projectsources\cloud\spring-cloud-common\src\main\java\com\cloud\aop\annotati
 D:\projectsources\cloud\spring-cloud-common\src\main\java\com\cloud\aop\RedisAspect.java
 D:\projectsources\cloud\spring-cloud-common\src\main\java\com\cloud\properter\DsProperter.java
 D:\projectsources\cloud\spring-cloud-common\src\main\java\com\cloud\controller\BaseController.java
+D:\projectsources\cloud\spring-cloud-common\src\main\java\com\cloud\bean\properties\DsProperties.java
 D:\projectsources\cloud\spring-cloud-common\src\main\java\com\cloud\handler\DateFormatter.java
 D:\projectsources\cloud\spring-cloud-common\src\main\java\com\cloud\handler\DefenseUtil.java

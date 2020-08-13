@@ -1,4 +1,7 @@
-package com.cloud.bean;
+package com.cloud.bean.properties;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Configuration;
 
 /**
  * ClassName: DsProperties
