@@ -98,35 +98,36 @@ public class RedisAspect implements InitializingBean {
 
     private Object setCache(TimeUnit unit,long time,ProceedingJoinPoint point,Class<?> returnType, String... cacheName) throws Throwable {
         Object result = null;
-            try{
-                readLock.lock();
-                for (String s : cacheName) {
-                    result = operations.get(s);
-                    if (result != null) {
-                        logger.info("从缓存库读取数据,key为:{}",s);
-                        String redisCache = (String) result;
-                        result = JSON.parseObject(redisCache,returnType);
-                        break;
-                    }
+
+        try {
+            writeLock.lock();
+            readLock.lock();
+            for (String s : cacheName) {
+                result = operations.get(s);
+                if (result != null) {
+                    writeLock.unlock();
+                    logger.info("从缓存库读取数据,key为:{}",s);
+                    String redisCache = (String) result;
+                    result = JSON.parseObject(redisCache,returnType);
+                    break;
                 }
-            }catch (Exception e){
-                e.printStackTrace();
-            }finally {
+            }
+            //缓存库没有
+            if (result == null) {
                 readLock.unlock();
-            }
-            try{
-                writeLock.lock();
-                readLock.lock();
-                if (result == null) {
-                    logger.info("从数据库读取数据");
-                    result = point.proceed();
-                    for (String s:cacheName) {
-                        operations.setIfAbsent(s, JSON.toJSONString(result),time,unit);
-                    }
+                logger.info("从数据库读取数据");
+                Thread.sleep(20000);
+                result = point.proceed();
+                for (String s:cacheName) {
+                    operations.setIfAbsent(s, JSON.toJSONString(result),time,unit);
                 }
-            }finally {
                 writeLock.unlock();
+                readLock.lock();
             }
+        } finally {
+            readLock.unlock();
+        }
+
         return result;
     }
 

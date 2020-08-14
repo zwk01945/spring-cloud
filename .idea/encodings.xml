@@ -9,6 +9,8 @@
     <file url="file://$PROJECT_DIR$/spring-cloud-minio/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-msgpush/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-msgpush/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-slaveservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-slaveservice/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-web/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-web/src/main/resources" charset="UTF-8" />
   </component>
