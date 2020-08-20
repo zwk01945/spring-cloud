@@ -1,0 +1,84 @@
+server:
+  port: 9011
+spring:
+  application:
+    name: spring-cloud-web
+    # Nacos 服务发现与注册配置，其中子属性 server-addr 指定 Nacos 服务器主机和端口
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    alibaba:
+      seata:
+        tx-service-group: my_test_tx_group
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/test?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true&allowPublicKeyRetrieval=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    #Spring Boot 默认是不注入这些属性值的，需要自己绑定
+    #druid 数据源专有配置
+    druid:
+      initialSize: 5
+      minIdle: 5
+      maxActive: 20
+      maxWait: 60000
+      timeBetweenEvictionRunsMillis: 60000
+      minEvictableIdleTimeMillis: 300000
+      validationQuery: SELECT 1 FROM DUAL
+      testWhileIdle: true
+      testOnBorrow: false
+      testOnReturn: false
+      # 打开PSCache
+      poolPreparedStatements: true
+      #配置监控统计拦截的filters，stat:监控统计、log4j：日志记录、wall：防御sql注入
+      #如果运行时报错  java.lang.ClassNotFoundException: org.apache.log4j.Priority
+      #则导入 log4j 依赖即可，Maven 地址： https://mvnrepository.com/artifact/log4j/log4j
+      filters: stat,wall,log4j,config
+      #指定每个连接上PSCache的大小
+      maxPoolPreparedStatementPerConnectionSize: 20
+      #合并多个DruidDataSource的监控数据
+      useGlobalDataSourceStat: true
+      #通过connectProperties属性来打开mergeSql功能；慢SQL记录
+      connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+#seata配置
+seata:
+  enabled: true
+  application-id: spring-cloud-web
+  #这里的名字与file.conf中vgroup_mapping.my_test_tx_group = "default"相同
+  tx-service-group: my_test_tx_group
+  enable-auto-data-source-proxy: true
+  #  use-jdk-proxy: false
+  service:
+    #这里的名字与file.conf中vgroup_mapping.my_test_tx_group = "default"相同
+    vgroup-mapping:
+      my_test_tx_group: default
+      #这里的名字与file.conf中default.grouplist = "127.0.0.1:8091"相同
+    grouplist:
+      default: 127.0.0.1:8091
+  #      disable-global-transaction: false
+  config:
+    type: nacos
+    nacos:
+      namespace:
+      #这里的地址就是你的nacos的地址,可以更换为线上
+      serverAddr: 127.0.0.1:8848
+      #这里的名字就是registry.conf中 nacos的group名字
+      group: SEATA_GROUP
+      userName: "nacos"
+      password: "nacos"
+  registry:
+    type: nacos
+    nacos:
+      application: seata-server
+      namespace:
+      #这里的地址就是你的nacos的地址,可以更换为线上
+      serverAddr: 127.0.0.1:8848
+      #这里的名字就是registry.conf中 nacos的group名字
+      group: SEATA_GROUP
+      userName: "nacos"
+      password: "nacos"
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 60000

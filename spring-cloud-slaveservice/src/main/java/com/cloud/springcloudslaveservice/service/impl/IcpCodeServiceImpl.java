@@ -28,4 +28,9 @@ public class IcpCodeServiceImpl implements IcpCodeService {
         return icpCodeMapper.selectList(null);
     }
 
+    @Override
+    public long insert(IcpCode icpCode) {
+        return icpCodeMapper.insert(icpCode);
+    }
+
 }

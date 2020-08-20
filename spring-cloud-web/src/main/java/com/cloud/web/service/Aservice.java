@@ -20,4 +20,6 @@ package com.cloud.web.service;
  * - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 public interface Aservice {
     public String get();
+
+    public void insert();
 }

@@ -1,13 +1,15 @@
 package com.cloud.springcloudmasterservice.service.impl;
 
-
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.cloud.bean.ResultObject;
 import com.cloud.bean.ohters.CoustomerZt;
+import com.cloud.springcloudmasterservice.feign.SlaveService;
 import com.cloud.springcloudmasterservice.mapper.CoustomerZtMapper;
 import com.cloud.springcloudmasterservice.service.ICoustomerService;
+import io.seata.spring.annotation.GlobalTransactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;
@@ -26,6 +28,9 @@ public class ICoustomerServiceImpl implements ICoustomerService {
 
     @Autowired
     CoustomerZtMapper coustomerZtMapper;
+
+    @Autowired
+    SlaveService slaveService;
 
 
     @Override
@@ -56,7 +61,14 @@ public class ICoustomerServiceImpl implements ICoustomerService {
     }
 
     @Override
+    @GlobalTransactional
     public long insert(CoustomerZt coustomerZt) {
-        return coustomerZtMapper.insert(coustomerZt);
+        coustomerZtMapper.insert(coustomerZt);
+        ResultObject insert = slaveService.insert();
+        if (insert.getCode() != 200) {
+            throw new RuntimeException("slave异常,全局回滚");
+        }
+        int i = 1/0;
+        return 0;
     }
 }

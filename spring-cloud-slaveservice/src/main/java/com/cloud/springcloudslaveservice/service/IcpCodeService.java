@@ -13,5 +13,5 @@ import java.util.List;
  */
 public interface IcpCodeService {
     List<IcpCode> selectAll();
-
+    long insert(IcpCode icpCode);
 }

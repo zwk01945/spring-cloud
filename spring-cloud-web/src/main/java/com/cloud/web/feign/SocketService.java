@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * Functions:                                                 *
  *   Get_Build_Frame_Count -- Fetches the number of frames in *
  * - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
-@FeignClient(name = "spring-cloud-msgpush")
+//@FeignClient(name = "spring-cloud-msgpush")
 public interface SocketService {
     /**
      * socket服务

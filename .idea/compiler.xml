@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-cloud-msgpush" />
+        <module name="test" />
         <module name="spring-cloud-masterservice" />
         <module name="spring-cloud-common" />
         <module name="spring-cloud-slaveservice" />
@@ -14,5 +15,8 @@
         <module name="spring-cloud-minio" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="test" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

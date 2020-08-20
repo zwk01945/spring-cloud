@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * Functions:                                                 *
  *   阿里云短信推送服务调用                                       *
  * - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
-@FeignClient(name = "spring-cloud-msgpush")
+//@FeignClient(name = "spring-cloud-msgpush")
 public interface EchoService {
 
     /**

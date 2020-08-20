@@ -8,6 +8,9 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
+    alibaba:
+      seata:
+        tx-service-group: my_test_tx_group
   datasource:
     username: root
     password: 123456
@@ -50,19 +53,40 @@ spring:
         timeout: 10000
     cluster:
       nodes: 127.0.0.1:9001,127.0.0.1:9002,127.0.0.1:9003,127.0.0.1:9004,127.0.0.1:9005,127.0.0.1:9006
-#seata.enabled=true
-#seata.service.vgroup-mapping=default
-#seata.service.grouplist=127.0.0.1:8091
-#seata.service.disable-global-transaction=false
-## if use registry center
-#seata.registry.type=nacos
-#seata.registry.nacos.cluster=default
-#seata.registry.nacos.server-addr=localhost
-#
-## if use config center
-#seata.config.type=apollo
-#seata.config.apollo.apollo-meta=http://192.168.1.204:8801
-#seata.config.apollo.app-id=seata-server
-
-
-
+#seata配置
+seata:
+  enabled: true
+  application-id: spring-cloud-slaveservice
+  #这里的名字与file.conf中vgroup_mapping.my_test_tx_group = "default"相同
+  tx-service-group: my_test_tx_group
+  enable-auto-data-source-proxy: true
+  #  use-jdk-proxy: false
+  service:
+    #这里的名字与file.conf中vgroup_mapping.my_test_tx_group = "default"相同
+    vgroup-mapping:
+      my_test_tx_group: default
+      #这里的名字与file.conf中default.grouplist = "127.0.0.1:8091"相同
+    grouplist:
+      default: 127.0.0.1:8091
+  #      disable-global-transaction: false
+  config:
+    type: nacos
+    nacos:
+      namespace:
+      #这里的地址就是你的nacos的地址,可以更换为线上
+      serverAddr: 127.0.0.1:8848
+      #这里的名字就是registry.conf中 nacos的group名字
+      group: SEATA_GROUP
+      userName: "nacos"
+      password: "nacos"
+  registry:
+    type: nacos
+    nacos:
+      application: seata-server
+      namespace:
+      #这里的地址就是你的nacos的地址,可以更换为线上
+      serverAddr: 127.0.0.1:8848
+      #这里的名字就是registry.conf中 nacos的group名字
+      group: SEATA_GROUP
+      userName: "nacos"
+      password: "nacos"
