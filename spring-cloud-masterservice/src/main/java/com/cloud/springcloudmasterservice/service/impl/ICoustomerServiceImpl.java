@@ -68,7 +68,6 @@ public class ICoustomerServiceImpl implements ICoustomerService {
         if (insert.getCode() != 200) {
             throw new RuntimeException("slave异常,全局回滚");
         }
-        int i = 1/0;
         return 0;
     }
 }
