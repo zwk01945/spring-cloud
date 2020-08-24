@@ -29,10 +29,6 @@ public class ICoustomerServiceImpl implements ICoustomerService {
     @Autowired
     CoustomerZtMapper coustomerZtMapper;
 
-    @Autowired
-    SlaveService slaveService;
-
-
     @Override
     public List<CoustomerZt> selectAll() {
         QueryWrapper<CoustomerZt> query = Wrappers.query();
@@ -61,13 +57,12 @@ public class ICoustomerServiceImpl implements ICoustomerService {
     }
 
     @Override
-    @GlobalTransactional
-    public long insert(CoustomerZt coustomerZt) {
-        coustomerZtMapper.insert(coustomerZt);
-        ResultObject insert = slaveService.insert();
-        if (insert.getCode() != 200) {
-            throw new RuntimeException("slave异常,全局回滚");
+    public ResultObject insert(CoustomerZt coustomerZt) {
+        try {
+            coustomerZtMapper.insert(coustomerZt);
+        } catch (Exception e) {
+            return new ResultObject(-1,"fail",null);
         }
-        return 0;
+        return new ResultObject(200,"success",null);
     }
 }

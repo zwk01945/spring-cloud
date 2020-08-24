@@ -1,6 +1,7 @@
 package com.cloud.springcloudmasterservice.service;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.cloud.bean.ResultObject;
 import com.cloud.bean.ohters.CoustomerZt;
 
 import java.util.List;
@@ -23,5 +24,5 @@ public interface ICoustomerService {
 
     IPage<CoustomerZt> selectByPage(Integer start, Integer size);
 
-    long insert(CoustomerZt coustomerZt);
+    ResultObject insert(CoustomerZt coustomerZt);
 }

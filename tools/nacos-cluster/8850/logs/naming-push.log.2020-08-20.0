@@ -1,0 +1,156 @@
+2020-08-20 09:00:05,822 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2020-08-20 09:37:44,801 INFO DEFAULT_GROUP@@spring-cloud-masterservice is changed, add it to push queue.
+
+2020-08-20 09:39:45,133 INFO DEFAULT_GROUP@@spring-cloud-slaveservice is changed, add it to push queue.
+
+2020-08-20 09:56:33,260 INFO DEFAULT_GROUP@@spring-cloud-slaveservice is changed, add it to push queue.
+
+2020-08-20 09:56:33,262 INFO serviceName: DEFAULT_GROUP@@spring-cloud-slaveservice changed, schedule push for: 192.168.2.157:55959, agent: Nacos-Java-Client:v1.2.1, key: 192.168.2.157,55959,1093466179620990
+
+2020-08-20 09:56:33,262 INFO send udp packet: 192.168.2.157,55959,1093466179620990
+
+2020-08-20 09:56:33,271 INFO received ack: {"type": "push-ack", "lastRefTime":"1093466179620990", "data":""} from: 192.168.2.157:55959, cost: 9 ms, unacked: 0, total push: 1
+
+2020-08-20 09:56:48,801 INFO DEFAULT_GROUP@@spring-cloud-masterservice is changed, add it to push queue.
+
+2020-08-20 14:53:14,504 INFO DEFAULT_GROUP@@spring-cloud-masterservice is changed, add it to push queue.
+
+2020-08-20 14:53:14,950 INFO DEFAULT_GROUP@@spring-cloud-slaveservice is changed, add it to push queue.
+
+2020-08-20 14:53:30,345 INFO DEFAULT_GROUP@@spring-cloud-slaveservice is changed, add it to push queue.
+
+2020-08-20 14:53:30,345 INFO DEFAULT_GROUP@@spring-cloud-masterservice is changed, add it to push queue.
+
+2020-08-20 14:53:54,269 INFO DEFAULT_GROUP@@spring-cloud-masterservice is changed, add it to push queue.
+
+2020-08-20 14:54:15,850 INFO DEFAULT_GROUP@@spring-cloud-slaveservice is changed, add it to push queue.
+
+2020-08-20 14:55:30,356 INFO DEFAULT_GROUP@@spring-cloud-masterservice is changed, add it to push queue.
+
+2020-08-20 14:55:45,374 INFO DEFAULT_GROUP@@spring-cloud-masterservice is changed, add it to push queue.
+
+2020-08-20 14:56:10,346 INFO DEFAULT_GROUP@@spring-cloud-masterservice is changed, add it to push queue.
+
+2020-08-20 14:56:42,086 INFO DEFAULT_GROUP@@spring-cloud-masterservice is changed, add it to push queue.
+
+2020-08-20 14:56:42,134 INFO DEFAULT_GROUP@@spring-cloud-slaveservice is changed, add it to push queue.
+
+2020-08-20 14:56:42,149 INFO serviceName: DEFAULT_GROUP@@spring-cloud-slaveservice changed, schedule push for: 192.168.2.157:63739, agent: Nacos-Java-Client:v1.2.1, key: 192.168.2.157,63739,1111475054080106
+
+2020-08-20 14:56:42,149 INFO send udp packet: 192.168.2.157,63739,1111475054080106
+
+2020-08-20 14:56:52,151 INFO retry to push data, key: 192.168.2.157,63739,1111475054080106
+
+2020-08-20 14:56:52,151 INFO send udp packet: 192.168.2.157,63739,1111475054080106
+
+2020-08-20 14:57:02,152 INFO retry to push data, key: 192.168.2.157,63739,1111475054080106
+
+2020-08-20 14:57:02,152 WARN max re-push times reached, retry times 2, key: 192.168.2.157,63739,1111475054080106
+
+2020-08-20 14:57:40,037 INFO DEFAULT_GROUP@@spring-cloud-masterservice is changed, add it to push queue.
+
+2020-08-20 15:05:21,469 INFO DEFAULT_GROUP@@spring-cloud-slaveservice is changed, add it to push queue.
+
+2020-08-20 15:19:57,833 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2020-08-20 15:19:57,833 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 192.168.2.157:56609, agent: Nacos-Java-Client:v1.2.1, key: 192.168.2.157,56609,1112870753749115
+
+2020-08-20 15:19:57,833 INFO send udp packet: 192.168.2.157,56609,1112870753749115
+
+2020-08-20 15:19:57,834 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 192.168.2.157:63564, agent: Nacos-Java-Client:v1.2.1, key: 192.168.2.157,63564,1112870753749115
+
+2020-08-20 15:19:57,834 INFO send udp packet: 192.168.2.157,63564,1112870753749115
+
+2020-08-20 15:19:57,914 INFO received ack: {"type": "push-ack", "lastRefTime":"1112870753749115", "data":""} from: 192.168.2.157:56609, cost: 81 ms, unacked: 1, total push: 4
+
+2020-08-20 15:19:57,915 INFO received ack: {"type": "push-ack", "lastRefTime":"1112870753749115", "data":""} from: 192.168.2.157:63564, cost: 81 ms, unacked: 0, total push: 4
+
+2020-08-20 15:20:18,255 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2020-08-20 15:20:18,255 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 192.168.2.157:56609, agent: Nacos-Java-Client:v1.2.1, key: 192.168.2.157,56609,1112891175137241
+
+2020-08-20 15:20:18,256 INFO send udp packet: 192.168.2.157,56609,1112891175137241
+
+2020-08-20 15:20:18,256 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 192.168.2.157:63564, agent: Nacos-Java-Client:v1.2.1, key: 192.168.2.157,63564,1112891175137241
+
+2020-08-20 15:20:18,256 INFO send udp packet: 192.168.2.157,63564,1112891175137241
+
+2020-08-20 15:20:18,261 INFO received ack: {"type": "push-ack", "lastRefTime":"1112891175137241", "data":""} from: 192.168.2.157:56609, cost: 5 ms, unacked: 1, total push: 6
+
+2020-08-20 15:20:18,261 INFO received ack: {"type": "push-ack", "lastRefTime":"1112891175137241", "data":""} from: 192.168.2.157:63564, cost: 5 ms, unacked: 0, total push: 6
+
+2020-08-20 15:53:31,576 INFO DEFAULT_GROUP@@spring-cloud-masterservice is changed, add it to push queue.
+
+2020-08-20 15:53:41,606 INFO DEFAULT_GROUP@@spring-cloud-masterservice is changed, add it to push queue.
+
+2020-08-20 15:53:46,606 INFO DEFAULT_GROUP@@spring-cloud-masterservice is changed, add it to push queue.
+
+2020-08-20 15:54:28,976 INFO DEFAULT_GROUP@@spring-cloud-slaveservice is changed, add it to push queue.
+
+2020-08-20 15:58:03,537 INFO DEFAULT_GROUP@@spring-cloud-web is changed, add it to push queue.
+
+2020-08-20 16:15:41,949 INFO DEFAULT_GROUP@@spring-cloud-slaveservice is changed, add it to push queue.
+
+2020-08-20 16:15:41,949 INFO serviceName: DEFAULT_GROUP@@spring-cloud-slaveservice changed, schedule push for: 192.168.2.157:58069, agent: Nacos-Java-Client:v1.2.1, key: 192.168.2.157,58069,1116214869089265
+
+2020-08-20 16:15:41,949 INFO send udp packet: 192.168.2.157,58069,1116214869089265
+
+2020-08-20 16:15:41,953 INFO received ack: {"type": "push-ack", "lastRefTime":"1116214869089265", "data":""} from: 192.168.2.157:58069, cost: 4 ms, unacked: 0, total push: 7
+
+2020-08-20 16:15:56,964 INFO DEFAULT_GROUP@@spring-cloud-slaveservice is changed, add it to push queue.
+
+2020-08-20 16:15:56,965 INFO serviceName: DEFAULT_GROUP@@spring-cloud-slaveservice changed, schedule push for: 192.168.2.157:58069, agent: Nacos-Java-Client:v1.2.1, key: 192.168.2.157,58069,1116229884089823
+
+2020-08-20 16:15:56,965 INFO send udp packet: 192.168.2.157,58069,1116229884089823
+
+2020-08-20 16:16:06,967 INFO retry to push data, key: 192.168.2.157,58069,1116229884089823
+
+2020-08-20 16:16:06,967 INFO send udp packet: 192.168.2.157,58069,1116229884089823
+
+2020-08-20 16:16:11,955 INFO DEFAULT_GROUP@@spring-cloud-masterservice is changed, add it to push queue.
+
+2020-08-20 16:16:13,733 INFO DEFAULT_GROUP@@spring-cloud-web is changed, add it to push queue.
+
+2020-08-20 16:16:16,968 INFO retry to push data, key: 192.168.2.157,58069,1116229884089823
+
+2020-08-20 16:16:16,968 WARN max re-push times reached, retry times 2, key: 192.168.2.157,58069,1116229884089823
+
+2020-08-20 16:16:26,965 INFO DEFAULT_GROUP@@spring-cloud-masterservice is changed, add it to push queue.
+
+2020-08-20 16:16:27,484 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2020-08-20 16:16:28,738 INFO DEFAULT_GROUP@@spring-cloud-web is changed, add it to push queue.
+
+2020-08-20 16:16:32,485 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2020-08-20 16:16:42,489 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2020-08-20 16:16:47,496 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2020-08-20 16:17:06,208 INFO DEFAULT_GROUP@@spring-cloud-masterservice is changed, add it to push queue.
+
+2020-08-20 16:17:22,027 INFO DEFAULT_GROUP@@spring-cloud-slaveservice is changed, add it to push queue.
+
+2020-08-20 16:17:42,653 INFO DEFAULT_GROUP@@spring-cloud-web is changed, add it to push queue.
+
+2020-08-20 16:20:21,628 INFO DEFAULT_GROUP@@spring-cloud-masterservice is changed, add it to push queue.
+
+2020-08-20 16:20:21,628 INFO serviceName: DEFAULT_GROUP@@spring-cloud-masterservice changed, schedule push for: 192.168.2.157:54272, agent: Nacos-Java-Client:v1.2.1, key: 192.168.2.157,54272,1116494548209009
+
+2020-08-20 16:20:21,628 INFO send udp packet: 192.168.2.157,54272,1116494548209009
+
+2020-08-20 16:20:21,632 INFO received ack: {"type": "push-ack", "lastRefTime":"1116494548209009", "data":""} from: 192.168.2.157:54272, cost: 4 ms, unacked: 0, total push: 9
+
+2020-08-20 16:57:54,226 INFO DEFAULT_GROUP@@spring-cloud-web is changed, add it to push queue.
+
+2020-08-20 16:57:57,445 INFO DEFAULT_GROUP@@spring-cloud-slaveservice is changed, add it to push queue.
+
+2020-08-20 16:58:02,447 INFO DEFAULT_GROUP@@spring-cloud-masterservice is changed, add it to push queue.
+
+2020-08-20 16:58:09,234 INFO DEFAULT_GROUP@@spring-cloud-web is changed, add it to push queue.
+
+2020-08-20 16:58:12,455 INFO DEFAULT_GROUP@@spring-cloud-slaveservice is changed, add it to push queue.
+
+2020-08-20 16:58:17,453 INFO DEFAULT_GROUP@@spring-cloud-masterservice is changed, add it to push queue.
+

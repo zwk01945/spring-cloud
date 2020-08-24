@@ -1,6 +1,7 @@
 package com.cloud.web.service;
 
 import com.cloud.aop.annotation.CacheRedis;
+import com.cloud.bean.ResultObject;
 import com.cloud.web.feign.MasterService;
 import com.cloud.web.feign.SlaveService;
 import io.seata.core.context.RootContext;
@@ -55,7 +56,13 @@ public class AserviceImpl implements Aservice {
     @GlobalTransactional
     public void insert() {
         System.out.println("==================="+ RootContext.getXID());
-        masterService.insert();
-        slaveService.insert();
+        ResultObject master = masterService.insert();
+        ResultObject slave = slaveService.insert();
+
+        if (master.getCode() != 200 || slave.getCode() != 200) {
+            throw new RuntimeException("子服务失败,事务回滚");
+        }
+
+
     }
 }

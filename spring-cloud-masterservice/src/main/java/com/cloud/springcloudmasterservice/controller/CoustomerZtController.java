@@ -1,5 +1,6 @@
 package com.cloud.springcloudmasterservice.controller;
 
+import com.cloud.bean.ResultObject;
 import com.cloud.bean.ohters.CoustomerZt;
 import com.cloud.controller.BaseController;
 import com.cloud.springcloudmasterservice.service.impl.ICoustomerServiceImpl;
@@ -47,7 +48,7 @@ public class CoustomerZtController extends BaseController {
     }
 
     @RequestMapping("/i")
-    public Object insert() {
+    public ResultObject insert() {
         CoustomerZt coustomerZt = new CoustomerZt();
         coustomerZt.setAge(200);
         coustomerZt.setId(200);
@@ -55,8 +56,7 @@ public class CoustomerZtController extends BaseController {
         coustomerZt.setName("test");
         coustomerZt.setLocalAddress("address");
         coustomerZt.setProvinceFlag(200);
-        coustomerService.insert(coustomerZt);
-        return coustomerZt;
+        return coustomerService.insert(coustomerZt);
     }
 
 

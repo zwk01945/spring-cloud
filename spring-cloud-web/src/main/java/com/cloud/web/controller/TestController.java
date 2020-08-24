@@ -34,7 +34,6 @@ public class TestController {
     @Autowired
     Aservice aservice;
     @RequestMapping("/test")
-    @GlobalTransactional
     public ResultObject test() throws Exception{
         aservice.insert();
         return new ResultObject(0,"success",null);

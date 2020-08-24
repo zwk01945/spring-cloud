@@ -1,0 +1,24 @@
+2020-08-18 15:00:24,459 INFO SEATA_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [192.168.2.157:8091:unknown:default_1.0_true_false_default]
+
+2020-08-18 15:00:24,462 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 192.168.2.157:8091_true,
+
+2020-08-18 16:08:19,166 INFO DEFAULT_GROUP@@spring-cloud-masterservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.157:9013:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-08-18 16:08:19,166 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-masterservice, ips: 192.168.2.157:9013_true,
+
+2020-08-18 16:21:57,455 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-masterservice, ips: 192.168.2.157:9013_true,
+
+2020-08-18 16:36:04,472 INFO {POS} {IP-DISABLED} valid: 192.168.2.157:9013@DEFAULT@DEFAULT_GROUP@@spring-cloud-masterservice, region: unknown, msg: client timeout after 15000, last beat: 1597739747972
+
+2020-08-18 16:36:20,014 INFO DEFAULT_GROUP@@spring-cloud-masterservice {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.157:9013:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-08-18 16:36:20,014 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-masterservice, ips: 
+
+2020-08-18 16:36:46,966 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 192.168.2.157:8091_true,
+
+2020-08-18 17:38:41,350 INFO {POS} {IP-DISABLED} valid: 192.168.2.157:8091@default@SEATA_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1597743505571
+
+2020-08-18 17:38:56,366 INFO SEATA_GROUP@@seata-server {SYNC} {IP-DEAD} cluster: default, dead ips size: 1, content: [192.168.2.157:8091:unknown:default_1.0_false_false_default]
+
+2020-08-18 17:38:56,366 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 
+

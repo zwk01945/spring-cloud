@@ -58,7 +58,6 @@ public class RedisController {
             icpCode.setName("test");
             icpCodeService.insert(icpCode);
         } catch (Exception e) {
-            e.printStackTrace();
             return new ResultObject(-1,"fail",null);
         }
         return new ResultObject(200,"success",null);

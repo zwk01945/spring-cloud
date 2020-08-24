@@ -1,5 +1,6 @@
 package com.cloud.web.feign;
 
+import com.cloud.bean.ResultObject;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 
@@ -25,5 +26,5 @@ import org.springframework.web.bind.annotation.GetMapping;
 @FeignClient(name = "spring-cloud-masterservice")
 public interface MasterService {
     @GetMapping("/quartz/i")
-    Object insert();
+    ResultObject insert();
 }

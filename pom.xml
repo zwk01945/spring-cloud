@@ -44,9 +44,11 @@
     <!--子模块-->
     <modules>
         <module>spring-cloud-common</module> <!--公共模块-->
-        <module>spring-cloud-msgpush</module>
-        <module>spring-cloud-web</module>
-        <module>spring-cloud-minio</module>
-        <module>spring-cloud-masterservice</module>
+        <module>spring-cloud-msgpush</module> <!--消息推送-->
+        <module>spring-cloud-web</module>  <!--网页API-->
+        <module>spring-cloud-minio</module> <!--图片文件服务-->
+        <module>spring-cloud-masterservice</module> <!--基础服务-->
+        <module>spring-cloud-slaveservice</module>  <!--基础服务-->
+        <module>spring-cloud-gateway</module> <!--网关服务-->
     </modules>
 </project>

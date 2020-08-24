@@ -13,6 +13,7 @@
         <module name="spring-cloud-slaveservice" />
         <module name="spring-cloud-web" />
         <module name="spring-cloud-minio" />
+        <module name="spring-cloud-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

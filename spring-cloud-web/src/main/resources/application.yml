@@ -50,6 +50,9 @@ seata:
   tx-service-group: my_test_tx_group
   enable-auto-data-source-proxy: true
   #  use-jdk-proxy: false
+  client:
+    log:
+      exceptionRate: 100 # 日志异常输出概率（默认100）
   service:
     #这里的名字与file.conf中vgroup_mapping.my_test_tx_group = "default"相同
     vgroup-mapping:
@@ -57,7 +60,8 @@ seata:
       #这里的名字与file.conf中default.grouplist = "127.0.0.1:8091"相同
     grouplist:
       default: 127.0.0.1:8091
-  #      disable-global-transaction: false
+    enable-degrade: false
+    disable-global-transaction: false
   config:
     type: nacos
     nacos:
@@ -79,6 +83,3 @@ seata:
       group: SEATA_GROUP
       userName: "nacos"
       password: "nacos"
-ribbon:
-  ReadTimeout: 60000
-  ConnectTimeout: 60000

@@ -1,0 +1,21 @@
+{
+  "refreshGatewayRoute":true,
+  "routeList":[
+    {
+      "id":"spring-cloud-msgpush",
+      "predicates":[
+        {
+          "name":"Path",
+          "args":{
+            "_genkey_0":"/msg/**"
+          }
+        }
+      ],
+      "filters":[
+
+      ],
+      "uri":"lb://spring-cloud-msgpush",
+      "order":1
+    }
+  ]
+}
