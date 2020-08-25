@@ -1,0 +1,24 @@
+server:
+  port: 9015
+spring:
+  application:
+    name: spring-cloud-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:5000
+      config:
+        file-extension: yaml
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
+nacos:
+  serveraddr: 127.0.0.1:5000
+  dataid: gateway-refresh.json
+  group: DEFAULT_GROUP
+

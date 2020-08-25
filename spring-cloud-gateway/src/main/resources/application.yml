@@ -1,23 +1,7 @@
-server:
-  port: 9015
 spring:
-  application:
-    name: spring-cloud-gateway
-    # Nacos 服务发现与注册配置，其中子属性 server-addr 指定 Nacos 服务器主机和端口
-  cloud:
-    nacos:
-      discovery:
-        server-addr: 127.0.0.1:5000
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
-
-ribbon:
-  ReadTimeout: 60000
-  ConnectTimeout: 60000
-nacos:
-  serveraddr: 127.0.0.1:8848
-  dataid: gateway-refresh.json
-  group: DEFAULT_GROUP
+  mvc:
+    throw-exception-if-no-handler-found: true
+  resources:
+    add-mappings: false
+logging:
+  config: classpath:logback-spring.xml

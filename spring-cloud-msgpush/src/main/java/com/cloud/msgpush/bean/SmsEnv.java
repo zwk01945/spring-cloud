@@ -1,6 +1,7 @@
 package com.cloud.msgpush.bean;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.context.annotation.Configuration;
 
 /**************************************************************
@@ -23,6 +24,7 @@ import org.springframework.context.annotation.Configuration;
  * - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 @Configuration
 @ConfigurationProperties(prefix = "aliyun.sms")
+@RefreshScope
 public class SmsEnv {
 
     private String accessKeyId;

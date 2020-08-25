@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: spring-cloud-masterservice
+  cloud:
+    nacos:
+      config:
+        file-extension: yaml

@@ -7,6 +7,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.stereotype.Component;
 
 /**************************************************************
@@ -28,6 +29,7 @@ import org.springframework.stereotype.Component;
  *   初始化系统参数                                              *
  * - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 @Component
+@RefreshScope
 public class Init implements CommandLineRunner {
 
     private final Logger logger = LoggerFactory.getLogger(Init.class);

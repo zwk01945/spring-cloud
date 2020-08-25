@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: spring-cloud-slaveservice
+  cloud:
+    nacos:
+      config:
+        file-extension: yaml

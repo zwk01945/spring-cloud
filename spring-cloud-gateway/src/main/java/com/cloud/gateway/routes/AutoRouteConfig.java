@@ -9,9 +9,11 @@ import com.alibaba.nacos.api.config.listener.Listener;
 import com.alibaba.nacos.api.exception.NacosException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.cloud.gateway.event.RefreshRoutesEvent;
 import org.springframework.cloud.gateway.filter.FilterDefinition;
 import org.springframework.cloud.gateway.handler.predicate.PredicateDefinition;
@@ -21,6 +23,7 @@ import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.context.ApplicationEventPublisherAware;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.util.StringUtils;
 import org.springframework.web.util.UriComponentsBuilder;
 import reactor.core.publisher.Mono;
 import java.net.URI;
@@ -48,7 +51,8 @@ import java.util.concurrent.Executor;
  *   Get_Build_Frame_Count -- Fetches the number of frames in *
  * - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 @Configuration
-public class AutoRouteConfig implements ApplicationEventPublisherAware, CommandLineRunner {
+@RefreshScope
+public class AutoRouteConfig implements ApplicationEventPublisherAware, CommandLineRunner, InitializingBean {
 
     private final Logger log = LoggerFactory.getLogger(AutoRouteConfig.class);
 
@@ -65,6 +69,7 @@ public class AutoRouteConfig implements ApplicationEventPublisherAware, CommandL
 
     public ApplicationEventPublisher applicationEventPublisher;
 
+    public ConfigService configService;
     @Autowired
     public void setRouteDefinitionWriter(RouteDefinitionWriter routeDefinitionWriter) {
         this.routeDefinitionWriter = routeDefinitionWriter;
@@ -75,13 +80,38 @@ public class AutoRouteConfig implements ApplicationEventPublisherAware, CommandL
         this.applicationEventPublisher = applicationEventPublisher;
     }
 
-    @Bean
-    public void refreshRoutes() throws NacosException {
+    @Override
+    public void run(String... args) throws Exception {
+        log.info("网关启动从nacos拉取网关配置信息.....");
+        log.info("data_id,group,timeoutMs:{},{},{}",DATA_ID,GROUP,5000);
+        String config = configService.getConfig(DATA_ID, GROUP, 5000);
+        System.out.println(config);
+        boolean nacosConfig = StringUtils.isEmpty(config);
+        if (nacosConfig) {
+            log.info("未拉取到服务器配置信息,或者服务器未配置.....");
+        } else {
+            boolean refreshGatewayRoute = JSONObject.parseObject(config).getBoolean("refreshGatewayRoute");
+            if (refreshGatewayRoute) {
+                List<RouteEntity> list = JSON.parseArray(JSONObject.parseObject(config).getString("routeList")).toJavaList(RouteEntity.class);
+                list.forEach(route ->  update(assembleRouteDefinition(route)));
+            } else {
+                log.info("服务器未配置路由列表.....");
+            }
+        }
+    }
+
+    @Override
+    public void afterPropertiesSet() throws Exception {
         log.info("data_id,group:{},{}",DATA_ID,GROUP);
         Properties properties = new Properties();
         properties.setProperty(PropertyKeyConst.SERVER_ADDR,SERVER_ADDR);
-//        properties.setProperty(PropertyKeyConst.NAMESPACE,NAMESPACE);
-        ConfigService configService = NacosFactory.createConfigService(properties);
+        configService = NacosFactory.createConfigService(properties);
+    }
+
+    @Bean
+    public void refreshRoutes() throws NacosException {
+        log.info("初始化添加nacos listener.....");
+        log.info("data_id,group:{},{}",DATA_ID,GROUP);
         configService.addListener(DATA_ID, GROUP, new Listener() {
             @Override
             public Executor getExecutor() {
@@ -106,7 +136,7 @@ public class AutoRouteConfig implements ApplicationEventPublisherAware, CommandL
      * 路由更新
      * @param routeDefinition
      * @return void
-     * @author zengxueqi
+     * @author
      * @since 2020/3/15
      */
     public void update(RouteDefinition routeDefinition){
@@ -152,10 +182,5 @@ public class AutoRouteConfig implements ApplicationEventPublisherAware, CommandL
         URI uri = UriComponentsBuilder.fromUriString(routeEntity.getUri()).build().toUri();
         definition.setUri(uri);
         return definition;
-    }
-
-    @Override
-    public void run(String... args) throws Exception {
-        refreshRoutes();
     }
 }

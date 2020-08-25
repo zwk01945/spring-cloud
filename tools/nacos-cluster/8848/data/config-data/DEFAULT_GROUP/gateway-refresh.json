@@ -15,7 +15,7 @@
 
       ],
       "uri":"lb://spring-cloud-msgpush",
-      "order":1
+      "order":0
     }
   ]
 }

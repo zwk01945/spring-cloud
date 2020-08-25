@@ -1,0 +1,149 @@
+2020-08-24 15:08:38,374 ERROR [master-db] master db not found.
+
+2020-08-24 15:08:42,438 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:08:44,211 WARN useAddressServer:true
+
+2020-08-24 15:08:44,323 WARN isQuickStart:false
+
+2020-08-24 15:08:44,370 ERROR Nacos Server did not start because dumpservice bean construction failure :
+No DataSource set
+
+2020-08-24 15:09:00,460 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:09:14,469 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:09:28,483 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:09:42,509 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:09:56,515 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:10:10,526 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:10:24,544 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:10:38,553 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:10:52,585 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:11:06,590 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:11:20,597 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:11:34,605 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:11:48,614 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:12:02,630 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:12:16,657 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:12:30,665 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:12:44,671 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:12:58,678 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:13:12,685 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:13:26,695 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:13:40,706 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:13:54,788 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:14:08,797 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:14:22,808 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:14:36,825 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:14:50,837 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:15:04,843 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:15:18,852 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:15:32,860 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:15:46,878 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:16:00,888 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:16:14,896 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:16:28,905 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:16:42,920 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:16:56,930 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:17:10,935 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:17:24,946 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:17:39,011 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:17:53,020 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:18:07,031 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:18:21,035 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:18:35,042 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-08-24 15:19:26,976 WARN [master-db] jdbc:mysql://127.0.0.1:3306/nacos_config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&serverTimezone=UTC
+
+2020-08-24 15:19:28,223 WARN useAddressServer:true
+
+2020-08-24 15:19:28,309 WARN isQuickStart:false
+
+2020-08-24 15:22:42,019 WARN [master-db] jdbc:mysql://127.0.0.1:3306/nacos_config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&serverTimezone=UTC
+
+2020-08-24 15:22:43,283 WARN useAddressServer:true
+
+2020-08-24 15:22:43,401 WARN isQuickStart:false
+
+2020-08-24 15:32:19,409 WARN [master-db] jdbc:mysql://127.0.0.1:3306/nacos_config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&serverTimezone=UTC
+
+2020-08-24 15:32:21,678 WARN useAddressServer:true
+
+2020-08-24 15:32:21,779 WARN isQuickStart:false
+
+2020-08-24 15:37:09,080 WARN [master-db] jdbc:mysql://127.0.0.1:3306/nacos_config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&serverTimezone=UTC
+
+2020-08-24 15:37:10,085 WARN useAddressServer:true
+
+2020-08-24 15:37:10,282 WARN isQuickStart:false
+
+2020-08-24 15:46:52,976 WARN [master-db] jdbc:mysql://127.0.0.1:3306/nacos_config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&serverTimezone=UTC
+
+2020-08-24 15:46:54,303 WARN useAddressServer:true
+
+2020-08-24 15:46:54,403 WARN isQuickStart:false
+
+2020-08-24 15:52:09,176 WARN [master-db] jdbc:mysql://127.0.0.1:3306/nacos_config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&serverTimezone=UTC
+
+2020-08-24 15:52:10,209 WARN useAddressServer:true
+
+2020-08-24 15:52:10,297 WARN isQuickStart:false
+
+2020-08-24 15:53:33,366 WARN [master-db] jdbc:mysql://127.0.0.1:3306/nacos_config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&serverTimezone=UTC
+
+2020-08-24 15:53:34,378 WARN useAddressServer:true
+
+2020-08-24 15:53:34,461 WARN isQuickStart:false
+
+2020-08-24 15:57:39,219 WARN [master-db] jdbc:mysql://127.0.0.1:3306/nacos_config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&serverTimezone=UTC
+
+2020-08-24 15:57:40,193 WARN useAddressServer:true
+
+2020-08-24 15:57:40,279 WARN isQuickStart:false
+
+2020-08-24 16:17:44,538 WARN [master-db] jdbc:mysql://127.0.0.1:3306/nacos_config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&serverTimezone=UTC
+
+2020-08-24 16:17:45,659 WARN useAddressServer:true
+
+2020-08-24 16:17:45,760 WARN isQuickStart:false
+

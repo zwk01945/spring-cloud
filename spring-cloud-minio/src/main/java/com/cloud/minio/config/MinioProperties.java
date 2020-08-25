@@ -1,6 +1,7 @@
 package com.cloud.minio.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.context.annotation.Configuration;
 
 /**************************************************************
@@ -23,6 +24,7 @@ import org.springframework.context.annotation.Configuration;
  * - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 @Configuration
 @ConfigurationProperties(prefix = "minio")
+@RefreshScope
 public class MinioProperties {
 
     public String endPoint;
