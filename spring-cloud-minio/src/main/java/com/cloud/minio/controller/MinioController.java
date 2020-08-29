@@ -1,6 +1,7 @@
 package com.cloud.minio.controller;
 
 import com.cloud.bean.ResultObject;
+import com.cloud.minio.config.MinioProperties;
 import com.cloud.minio.service.ApiUpload;
 import com.cloud.controller.BaseController;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -36,11 +37,22 @@ public class MinioController extends BaseController {
 
     ApiUpload apiUpload;
 
+    MinioProperties minioProperties;
+
+    @Autowired
+    public void setMinioProperties(MinioProperties minioProperties) {
+        this.minioProperties = minioProperties;
+    }
+
     @Autowired
     public void setApiUpload(ApiUpload apiUpload) {
         this.apiUpload = apiUpload;
     }
 
+    @RequestMapping(value = "/a")
+    public String upload(){
+        return minioProperties.getAccessKey();
+    }
 
     @RequestMapping(value = "/upload")
     public ResultObject upload(@RequestParam("path") String filePath,

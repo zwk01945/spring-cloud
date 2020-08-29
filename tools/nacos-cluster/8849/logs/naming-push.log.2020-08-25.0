@@ -1,0 +1,106 @@
+2020-08-25 13:40:43,840 INFO DEFAULT_GROUP@@spring-cloud-msgpush is changed, add it to push queue.
+
+2020-08-25 13:40:43,842 INFO DEFAULT_GROUP@@spring-cloud-gateway is changed, add it to push queue.
+
+2020-08-25 13:41:08,863 INFO DEFAULT_GROUP@@spring-cloud-gateway is changed, add it to push queue.
+
+2020-08-25 14:08:57,036 INFO DEFAULT_GROUP@@spring-cloud-gateway is changed, add it to push queue.
+
+2020-08-25 14:08:59,221 INFO DEFAULT_GROUP@@spring-cloud-gateway is changed, add it to push queue.
+
+2020-08-25 14:20:20,732 INFO DEFAULT_GROUP@@spring-cloud-gateway is changed, add it to push queue.
+
+2020-08-25 14:20:24,322 INFO DEFAULT_GROUP@@spring-cloud-gateway is changed, add it to push queue.
+
+2020-08-25 14:20:39,346 INFO DEFAULT_GROUP@@spring-cloud-gateway is changed, add it to push queue.
+
+2020-08-25 14:24:29,385 INFO DEFAULT_GROUP@@spring-cloud-gateway is changed, add it to push queue.
+
+2020-08-25 14:24:44,394 INFO DEFAULT_GROUP@@spring-cloud-gateway is changed, add it to push queue.
+
+2020-08-25 14:27:32,275 INFO DEFAULT_GROUP@@spring-cloud-gateway is changed, add it to push queue.
+
+2020-08-25 14:27:59,418 INFO DEFAULT_GROUP@@spring-cloud-gateway is changed, add it to push queue.
+
+2020-08-25 14:28:14,424 INFO DEFAULT_GROUP@@spring-cloud-gateway is changed, add it to push queue.
+
+2020-08-25 14:29:50,817 INFO DEFAULT_GROUP@@spring-cloud-gateway is changed, add it to push queue.
+
+2020-08-25 14:31:04,302 INFO DEFAULT_GROUP@@spring-cloud-gateway is changed, add it to push queue.
+
+2020-08-25 14:31:33,333 INFO DEFAULT_GROUP@@spring-cloud-gateway is changed, add it to push queue.
+
+2020-08-25 14:35:07,769 INFO DEFAULT_GROUP@@spring-cloud-gateway is changed, add it to push queue.
+
+2020-08-25 14:35:34,645 INFO DEFAULT_GROUP@@spring-cloud-gateway is changed, add it to push queue.
+
+2020-08-25 14:35:38,604 INFO DEFAULT_GROUP@@spring-cloud-gateway is changed, add it to push queue.
+
+2020-08-25 14:35:43,609 INFO DEFAULT_GROUP@@spring-cloud-gateway is changed, add it to push queue.
+
+2020-08-25 14:43:44,734 INFO DEFAULT_GROUP@@spring-cloud-gateway is changed, add it to push queue.
+
+2020-08-25 14:43:59,745 INFO DEFAULT_GROUP@@spring-cloud-gateway is changed, add it to push queue.
+
+2020-08-25 14:46:47,464 INFO DEFAULT_GROUP@@spring-cloud-msgpush is changed, add it to push queue.
+
+2020-08-25 14:46:51,027 INFO DEFAULT_GROUP@@spring-cloud-msgpush is changed, add it to push queue.
+
+2020-08-25 14:48:02,288 INFO DEFAULT_GROUP@@spring-cloud-msgpush is changed, add it to push queue.
+
+2020-08-25 14:49:44,023 INFO DEFAULT_GROUP@@spring-cloud-msgpush is changed, add it to push queue.
+
+2020-08-25 14:56:10,778 INFO DEFAULT_GROUP@@spring-cloud-msgpush is changed, add it to push queue.
+
+2020-08-25 14:56:24,614 INFO DEFAULT_GROUP@@spring-cloud-msgpush is changed, add it to push queue.
+
+2020-08-25 14:59:36,837 INFO DEFAULT_GROUP@@spring-cloud-msgpush is changed, add it to push queue.
+
+2020-08-25 15:04:00,849 INFO DEFAULT_GROUP@@spring-cloud-msgpush is changed, add it to push queue.
+
+2020-08-25 15:04:14,708 INFO DEFAULT_GROUP@@spring-cloud-msgpush is changed, add it to push queue.
+
+2020-08-25 15:11:57,344 INFO DEFAULT_GROUP@@spring-cloud-minio is changed, add it to push queue.
+
+2020-08-25 15:13:27,311 INFO DEFAULT_GROUP@@spring-cloud-minio is changed, add it to push queue.
+
+2020-08-25 15:13:42,320 INFO DEFAULT_GROUP@@spring-cloud-minio is changed, add it to push queue.
+
+2020-08-25 15:21:41,352 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2020-08-25 15:22:40,287 INFO DEFAULT_GROUP@@spring-cloud-masterservice is changed, add it to push queue.
+
+2020-08-25 15:24:01,296 INFO DEFAULT_GROUP@@spring-cloud-masterservice is changed, add it to push queue.
+
+2020-08-25 15:24:15,321 INFO DEFAULT_GROUP@@spring-cloud-masterservice is changed, add it to push queue.
+
+2020-08-25 15:26:48,299 INFO DEFAULT_GROUP@@spring-cloud-slaveservice is changed, add it to push queue.
+
+2020-08-25 15:28:08,313 INFO DEFAULT_GROUP@@spring-cloud-slaveservice is changed, add it to push queue.
+
+2020-08-25 15:28:23,351 INFO DEFAULT_GROUP@@spring-cloud-slaveservice is changed, add it to push queue.
+
+2020-08-25 15:31:03,555 INFO DEFAULT_GROUP@@spring-cloud-web is changed, add it to push queue.
+
+2020-08-25 15:32:48,564 INFO DEFAULT_GROUP@@spring-cloud-web is changed, add it to push queue.
+
+2020-08-25 15:33:03,592 INFO DEFAULT_GROUP@@spring-cloud-web is changed, add it to push queue.
+
+2020-08-25 15:34:26,558 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2020-08-25 15:34:41,525 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2020-08-25 15:40:34,962 INFO DEFAULT_GROUP@@spring-cloud-gateway is changed, add it to push queue.
+
+2020-08-25 15:43:05,782 INFO DEFAULT_GROUP@@spring-cloud-gateway is changed, add it to push queue.
+
+2020-08-25 15:43:20,791 INFO DEFAULT_GROUP@@spring-cloud-gateway is changed, add it to push queue.
+
+2020-08-25 17:43:58,253 INFO DEFAULT_GROUP@@spring-cloud-minio is changed, add it to push queue.
+
+2020-08-25 17:46:09,207 INFO DEFAULT_GROUP@@spring-cloud-minio is changed, add it to push queue.
+
+2020-08-25 17:59:29,624 INFO DEFAULT_GROUP@@spring-cloud-minio is changed, add it to push queue.
+
+2020-08-25 17:59:44,639 INFO DEFAULT_GROUP@@spring-cloud-minio is changed, add it to push queue.
+
