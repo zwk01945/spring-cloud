@@ -1,0 +1,420 @@
+2020-09-02 09:11:10,254 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 09:11:10,258 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 09:11:13,219 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 09:11:13,220 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 
+
+2020-09-02 09:13:23,610 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 09:13:23,610 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 09:19:25,765 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 09:23:05,298 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 09:39:22,839 INFO {POS} {IP-DISABLED} valid: 192.168.2.157:9012@DEFAULT@DEFAULT_GROUP@@spring-cloud-minio, region: unknown, msg: client timeout after 15000, last beat: 1599010745057
+
+2020-09-02 09:39:37,868 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-09-02 09:39:37,868 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 
+
+2020-09-02 09:46:28,919 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 09:46:28,919 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 09:47:40,479 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 09:48:11,809 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 09:56:09,769 INFO {POS} {IP-DISABLED} valid: 192.168.2.157:9012@DEFAULT@DEFAULT_GROUP@@spring-cloud-minio, region: unknown, msg: client timeout after 15000, last beat: 1599011753829
+
+2020-09-02 09:56:09,942 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_false,
+
+2020-09-02 09:56:14,949 INFO service: DEFAULT_GROUP@@spring-cloud-minio {POS} {IP-ENABLED} valid: 192.168.2.157:9012@DEFAULT, region: unknown, msg: client beat ok
+
+2020-09-02 09:56:39,835 INFO {POS} {IP-DISABLED} valid: 192.168.2.157:9012@DEFAULT@DEFAULT_GROUP@@spring-cloud-minio, region: unknown, msg: client timeout after 15000, last beat: 1599011779985
+
+2020-09-02 09:56:54,877 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-09-02 09:56:54,877 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 
+
+2020-09-02 09:57:06,394 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 09:57:06,394 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 09:59:53,694 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 09:59:54,349 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 09:59:54,349 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 
+
+2020-09-02 10:00:12,167 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 10:00:12,167 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 10:04:29,947 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 10:04:30,541 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 10:04:30,541 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 
+
+2020-09-02 10:05:20,891 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 10:05:20,891 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 10:21:29,180 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 10:29:04,692 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 10:29:59,199 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 10:30:37,121 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 10:40:31,055 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 10:42:42,461 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 10:44:35,750 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 10:47:43,431 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 10:47:44,067 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 10:47:44,067 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 
+
+2020-09-02 10:48:32,108 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 10:48:32,108 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 10:48:32,722 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 10:48:32,722 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 
+
+2020-09-02 10:49:01,034 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 10:49:01,034 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 10:51:15,597 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 10:54:07,991 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 10:54:07,994 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 10:55:01,839 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 10:56:36,092 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 10:56:36,692 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 10:56:36,692 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 
+
+2020-09-02 10:56:48,540 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 10:56:48,541 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 10:57:29,434 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 11:01:46,081 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 11:04:09,160 INFO {POS} {IP-DISABLED} valid: 192.168.2.157:9012@DEFAULT@DEFAULT_GROUP@@spring-cloud-minio, region: unknown, msg: client timeout after 15000, last beat: 1599015831703
+
+2020-09-02 11:04:10,622 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_false,
+
+2020-09-02 11:04:15,629 INFO service: DEFAULT_GROUP@@spring-cloud-minio {POS} {IP-ENABLED} valid: 192.168.2.157:9012@DEFAULT, region: unknown, msg: client beat ok
+
+2020-09-02 11:07:32,710 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 11:15:19,064 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 11:17:01,405 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 11:19:54,724 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 11:19:55,419 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 11:19:55,419 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 
+
+2020-09-02 11:20:10,013 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 11:20:10,013 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 11:20:10,526 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 11:20:10,526 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 
+
+2020-09-02 11:20:37,647 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 11:20:37,647 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 11:20:38,113 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 11:20:38,113 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 
+
+2020-09-02 11:22:14,516 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 11:22:14,516 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 11:25:35,410 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 11:31:47,079 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 11:33:09,919 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 11:33:55,132 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 12:40:24,303 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 12:42:37,520 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 12:44:55,429 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 12:52:13,369 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 12:57:49,166 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 12:57:49,856 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 12:57:49,856 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 
+
+2020-09-02 12:58:04,061 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 12:58:04,061 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 12:59:05,348 INFO {POS} {IP-DISABLED} valid: 192.168.2.157:9012@DEFAULT@DEFAULT_GROUP@@spring-cloud-minio, region: unknown, msg: client timeout after 15000, last beat: 1599022729910
+
+2020-09-02 12:59:19,954 INFO service: DEFAULT_GROUP@@spring-cloud-minio {POS} {IP-ENABLED} valid: 192.168.2.157:9012@DEFAULT, region: unknown, msg: client beat ok
+
+2020-09-02 12:59:45,404 INFO {POS} {IP-DISABLED} valid: 192.168.2.157:9012@DEFAULT@DEFAULT_GROUP@@spring-cloud-minio, region: unknown, msg: client timeout after 15000, last beat: 1599022765877
+
+2020-09-02 12:59:49,442 INFO service: DEFAULT_GROUP@@spring-cloud-minio {POS} {IP-ENABLED} valid: 192.168.2.157:9012@DEFAULT, region: unknown, msg: client beat ok
+
+2020-09-02 13:00:05,452 INFO {POS} {IP-DISABLED} valid: 192.168.2.157:9012@DEFAULT@DEFAULT_GROUP@@spring-cloud-minio, region: unknown, msg: client timeout after 15000, last beat: 1599022789442
+
+2020-09-02 13:00:20,495 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-09-02 13:00:20,495 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 
+
+2020-09-02 13:00:40,925 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 13:00:40,925 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 13:01:00,560 INFO {POS} {IP-DISABLED} valid: 192.168.2.157:9012@DEFAULT@DEFAULT_GROUP@@spring-cloud-minio, region: unknown, msg: client timeout after 15000, last beat: 1599022840925
+
+2020-09-02 13:01:04,247 INFO service: DEFAULT_GROUP@@spring-cloud-minio {POS} {IP-ENABLED} valid: 192.168.2.157:9012@DEFAULT, region: unknown, msg: client beat ok
+
+2020-09-02 13:02:05,671 INFO {POS} {IP-DISABLED} valid: 192.168.2.157:9012@DEFAULT@DEFAULT_GROUP@@spring-cloud-minio, region: unknown, msg: client timeout after 15000, last beat: 1599022907805
+
+2020-09-02 13:02:06,644 INFO service: DEFAULT_GROUP@@spring-cloud-minio {POS} {IP-ENABLED} valid: 192.168.2.157:9012@DEFAULT, region: unknown, msg: client beat ok
+
+2020-09-02 13:02:40,722 INFO {POS} {IP-DISABLED} valid: 192.168.2.157:9012@DEFAULT@DEFAULT_GROUP@@spring-cloud-minio, region: unknown, msg: client timeout after 15000, last beat: 1599022943893
+
+2020-09-02 13:02:55,762 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-09-02 13:02:55,762 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 
+
+2020-09-02 13:02:58,497 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 13:02:58,497 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 13:04:39,777 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 13:04:39,777 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 
+
+2020-09-02 13:04:52,202 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 13:04:52,203 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 13:06:23,463 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 13:06:23,463 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 
+
+2020-09-02 13:08:40,908 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 13:08:40,908 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 13:12:54,920 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 13:14:05,462 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 13:14:44,191 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 13:16:24,760 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 13:16:25,352 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 13:16:25,352 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 
+
+2020-09-02 13:16:40,324 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 13:16:40,324 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 13:21:45,331 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 13:22:56,561 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 13:25:10,138 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 13:28:36,899 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 13:29:53,625 INFO {POS} {IP-DISABLED} valid: 192.168.2.157:9012@DEFAULT@DEFAULT_GROUP@@spring-cloud-minio, region: unknown, msg: client timeout after 15000, last beat: 1599024577238
+
+2020-09-02 13:30:08,657 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-09-02 13:30:08,657 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 
+
+2020-09-02 13:31:34,055 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 13:31:34,055 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 13:32:49,468 INFO {POS} {IP-DISABLED} valid: 192.168.2.157:9012@DEFAULT@DEFAULT_GROUP@@spring-cloud-minio, region: unknown, msg: client timeout after 15000, last beat: 1599024754391
+
+2020-09-02 13:32:50,503 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_false,
+
+2020-09-02 13:32:55,545 INFO service: DEFAULT_GROUP@@spring-cloud-minio {POS} {IP-ENABLED} valid: 192.168.2.157:9012@DEFAULT, region: unknown, msg: client beat ok
+
+2020-09-02 13:34:18,442 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 13:40:38,681 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 13:43:35,601 INFO {POS} {IP-DISABLED} valid: 192.168.2.157:9012@DEFAULT@DEFAULT_GROUP@@spring-cloud-minio, region: unknown, msg: client timeout after 15000, last beat: 1599025399445
+
+2020-09-02 13:43:44,089 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_false,
+
+2020-09-02 13:43:49,095 INFO service: DEFAULT_GROUP@@spring-cloud-minio {POS} {IP-ENABLED} valid: 192.168.2.157:9012@DEFAULT, region: unknown, msg: client beat ok
+
+2020-09-02 13:47:08,514 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 13:51:09,578 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 14:00:27,272 INFO {POS} {IP-DISABLED} valid: 192.168.2.157:9012@DEFAULT@DEFAULT_GROUP@@spring-cloud-minio, region: unknown, msg: client timeout after 15000, last beat: 1599026412033
+
+2020-09-02 14:00:41,801 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_false,
+
+2020-09-02 14:00:47,046 INFO service: DEFAULT_GROUP@@spring-cloud-minio {POS} {IP-ENABLED} valid: 192.168.2.157:9012@DEFAULT, region: unknown, msg: client beat ok
+
+2020-09-02 14:01:19,983 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 14:03:39,965 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 14:04:49,106 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 14:23:39,822 INFO {POS} {IP-DISABLED} valid: 192.168.2.157:9012@DEFAULT@DEFAULT_GROUP@@spring-cloud-minio, region: unknown, msg: client timeout after 15000, last beat: 1599027804176
+
+2020-09-02 14:23:42,572 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_false,
+
+2020-09-02 14:23:47,616 INFO service: DEFAULT_GROUP@@spring-cloud-minio {POS} {IP-ENABLED} valid: 192.168.2.157:9012@DEFAULT, region: unknown, msg: client beat ok
+
+2020-09-02 14:38:37,590 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 14:48:02,247 INFO {POS} {IP-DISABLED} valid: 192.168.2.157:9012@DEFAULT@DEFAULT_GROUP@@spring-cloud-minio, region: unknown, msg: client timeout after 15000, last beat: 1599029265155
+
+2020-09-02 14:48:02,355 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_false,
+
+2020-09-02 14:48:03,026 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-09-02 14:48:03,026 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 
+
+2020-09-02 14:48:44,832 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 14:48:44,832 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 15:14:40,819 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 15:14:41,379 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 15:14:41,379 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 
+
+2020-09-02 15:19:34,422 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 15:19:34,422 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 15:22:09,417 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 15:33:17,518 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 15:40:57,043 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 16:19:54,652 INFO DEFAULT_GROUP@@spring-cloud-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.157:9015:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 16:19:54,653 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-gateway, ips: 192.168.2.157:9015_true,
+
+2020-09-02 16:20:30,826 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-gateway, ips: 192.168.2.157:9015_true,
+
+2020-09-02 16:30:50,656 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-gateway, ips: 192.168.2.157:9015_true,
+
+2020-09-02 16:35:24,081 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-gateway, ips: 192.168.2.157:9015_true,
+
+2020-09-02 16:36:07,064 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-gateway, ips: 192.168.2.157:9015_true,
+
+2020-09-02 16:42:38,624 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-gateway, ips: 192.168.2.157:9015_true,
+
+2020-09-02 16:44:59,460 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-gateway, ips: 192.168.2.157:9015_true,
+
+2020-09-02 16:58:45,066 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-gateway, ips: 192.168.2.157:9015_true,
+
+2020-09-02 16:59:03,896 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-gateway, ips: 192.168.2.157:9015_true,
+
+2020-09-02 16:59:54,303 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 16:59:54,891 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 16:59:54,891 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 
+
+2020-09-02 17:00:22,277 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 17:00:22,277 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 17:02:21,446 INFO DEFAULT_GROUP@@spring-cloud-msgpush {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.157:9010:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 17:02:21,446 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-msgpush, ips: 192.168.2.157:9010_true,
+
+2020-09-02 17:03:08,429 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-msgpush, ips: 192.168.2.157:9010_true,
+
+2020-09-02 17:10:51,596 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-gateway, ips: 192.168.2.157:9015_true,
+
+2020-09-02 17:12:50,737 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-gateway, ips: 192.168.2.157:9015_true,
+
+2020-09-02 17:27:29,480 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-msgpush, ips: 192.168.2.157:9010_true,
+
+2020-09-02 17:31:16,505 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-msgpush, ips: 192.168.2.157:9010_true,
+
+2020-09-02 17:31:35,717 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 17:45:23,033 INFO {POS} {IP-DISABLED} valid: 192.168.2.157:9015@DEFAULT@DEFAULT_GROUP@@spring-cloud-gateway, region: unknown, msg: client timeout after 15000, last beat: 1599039906211
+
+2020-09-02 17:45:24,856 INFO {POS} {IP-DISABLED} valid: 192.168.2.157:9012@DEFAULT@DEFAULT_GROUP@@spring-cloud-minio, region: unknown, msg: client timeout after 15000, last beat: 1599039906339
+
+2020-09-02 17:45:26,921 INFO DEFAULT_GROUP@@spring-cloud-msgpush {SYNC} IP-DISABLED : 192.168.2.157:9010@DEFAULT
+
+2020-09-02 17:45:36,536 INFO DEFAULT_GROUP@@spring-cloud-msgpush {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.157:9010:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-09-02 17:45:36,536 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-msgpush, ips: 
+
+2020-09-02 17:45:38,056 INFO DEFAULT_GROUP@@spring-cloud-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.157:9015:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-09-02 17:45:38,056 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-gateway, ips: 
+
+2020-09-02 17:45:39,867 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-09-02 17:45:39,867 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 
+
+2020-09-02 18:02:03,312 INFO DEFAULT_GROUP@@spring-cloud-msgpush {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.157:9010:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 18:02:03,312 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-msgpush, ips: 192.168.2.157:9010_true,
+
+2020-09-02 18:02:03,550 INFO DEFAULT_GROUP@@spring-cloud-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.157:9015:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 18:02:03,550 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-gateway, ips: 192.168.2.157:9015_true,
+
+2020-09-02 18:02:03,559 INFO DEFAULT_GROUP@@spring-cloud-minio {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.157:9012:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-02 18:02:03,559 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-minio, ips: 192.168.2.157:9012_true,
+
+2020-09-02 18:02:29,687 INFO {POS} {IP-DISABLED} valid: 192.168.2.157:9015@DEFAULT@DEFAULT_GROUP@@spring-cloud-gateway, region: unknown, msg: client timeout after 15000, last beat: 1599040933583
+
+2020-09-02 18:02:31,413 INFO {POS} {IP-DISABLED} valid: 192.168.2.157:9012@DEFAULT@DEFAULT_GROUP@@spring-cloud-minio, region: unknown, msg: client timeout after 15000, last beat: 1599040933599
+
+2020-09-02 18:02:33,705 INFO DEFAULT_GROUP@@spring-cloud-msgpush {SYNC} IP-DISABLED : 192.168.2.157:9010@DEFAULT
+

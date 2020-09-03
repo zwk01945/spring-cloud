@@ -1,8 +1,6 @@
 package com.cloud.minio.service.impl;
 
-
 import com.cloud.minio.config.MinioConfig;
-import com.cloud.minio.config.MinioProperties;
 import com.cloud.minio.service.ApiUpload;
 import io.minio.*;
 import org.slf4j.Logger;
@@ -12,7 +10,7 @@ import org.springframework.stereotype.Service;
 import java.io.*;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
-import static com.cloud.minio.config.MinioConfig.setDefaultPolicy;
+
 
 /**************************************************************
  ***       S  T  A  G  E    多模块依赖项目                    ***
@@ -39,18 +37,19 @@ public class MinioFileUploader implements ApiUpload {
 
     public Lock lock = new ReentrantLock();
 
-    MinioProperties minioProperties;
+
+    MinioConfig minioConfig;
 
     @Autowired
-    public void setMinioProperties(MinioProperties minioProperties) {
-        this.minioProperties = minioProperties;
+    public void setMinioConfig(MinioConfig minioConfig) {
+        this.minioConfig = minioConfig;
     }
-
 
     @Override
     public void download(String filePath, String bucket, String objName) {
         try {
-            MinioConfig.client().downloadObject(
+            MinioClient client = minioConfig.client();
+            client.downloadObject(
                     DownloadObjectArgs.builder()
                             .bucket(bucket)
                             .object(objName)
@@ -67,15 +66,16 @@ public class MinioFileUploader implements ApiUpload {
         try {
             lock.lock();
             InputStream inputStream = new FileInputStream(filePath);
-            boolean isExist = MinioConfig.client().bucketExists(BucketExistsArgs.builder().bucket(bucket).build());
+            MinioClient client = minioConfig.client();
+            boolean isExist = client.bucketExists(BucketExistsArgs.builder().bucket(bucket).build());
             if (isExist){
                 logger.info("重复的bucket存在,覆盖操作");
             }else {
-                MinioConfig.client().makeBucket(MakeBucketArgs.builder()
+                client.makeBucket(MakeBucketArgs.builder()
                         .bucket(bucket).build());
                 logger.info("添加新的bucket到服务器,key为:{}",bucket);
                 logger.info("判断是否创建子目录.....");
-                setDefaultPolicy(bucket);
+                minioConfig.setDefaultPolicy(bucket);
             }
             process = reUpload(bucket,objName,inputStream,contentType);
         } catch (Exception e) {
@@ -92,16 +92,17 @@ public class MinioFileUploader implements ApiUpload {
         boolean process = false;
         try {
             lock.lock();
-            boolean isExist = MinioConfig.client().bucketExists(BucketExistsArgs.builder().bucket(bucket).build());
+            MinioClient client = minioConfig.client();
+            boolean isExist = client.bucketExists(BucketExistsArgs.builder().bucket(bucket).build());
             if (isExist){
                 logger.info("重复的bucket存在,覆盖操作");
             }else {
-                MinioConfig.client().makeBucket(MakeBucketArgs.builder()
+                client.makeBucket(MakeBucketArgs.builder()
                         .bucket(bucket).build());
                 logger.info("添加新的bucket到服务器,key为:{}",bucket);
-                setDefaultPolicy(bucket);
+                minioConfig.setDefaultPolicy(bucket);
             }
-            MinioConfig.client().uploadObject(
+            client.uploadObject(
                     UploadObjectArgs.builder()
                             .bucket(bucket)
                             .object(objName)
@@ -119,33 +120,26 @@ public class MinioFileUploader implements ApiUpload {
     }
 
     @Override
-    public InputStream read(String bucket, String objName) {
+    public InputStream read(String bucket, String objName) throws Exception{
         InputStream stream = null;
-        try {
-            stream = MinioConfig.client().getObject(
+            MinioClient client = minioConfig.client();
+            stream = client.getObject(
                     GetObjectArgs.builder()
                             .bucket(bucket)
                             .object(objName)
                             .build());
             //读到流
-        }catch (Exception e) {
-            e.printStackTrace();
-        }finally {
-            if (stream != null) {
-                try {
-                    stream.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-        }
         return stream;
     }
 
     public String getUri(String bucket, String objName) {
         String objectUrl = null;
         try {
-            objectUrl = MinioConfig.client().getObjectUrl(bucket, objName);
+            MinioClient client = minioConfig.client();
+            boolean isExist = client.bucketExists(BucketExistsArgs.builder().bucket(bucket).build());
+            if (isExist) {
+                objectUrl = client.getObjectUrl(bucket, objName);
+            }
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -155,10 +149,11 @@ public class MinioFileUploader implements ApiUpload {
     @Override
     public void removeBucket(String bucket) {
         try {
-            boolean isExist = MinioConfig.client().bucketExists(BucketExistsArgs.builder().bucket(bucket).build());
+            MinioClient client = minioConfig.client();
+            boolean isExist = client.bucketExists(BucketExistsArgs.builder().bucket(bucket).build());
             if (isExist) {
                 logger.info("删除已经创建的bucket");
-                MinioConfig.client().removeBucket(RemoveBucketArgs.builder().bucket(bucket).build());
+                client.removeBucket(RemoveBucketArgs.builder().bucket(bucket).build());
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -169,7 +164,8 @@ public class MinioFileUploader implements ApiUpload {
     public void removeObject(String bucket, String objName) {
         try {
             lock.lock();
-            MinioConfig.client().removeObject(
+            MinioClient client = minioConfig.client();
+            client.removeObject(
                     RemoveObjectArgs.builder().bucket(bucket).object(objName).build());
         } catch (Exception e) {
             e.printStackTrace();
@@ -178,23 +174,47 @@ public class MinioFileUploader implements ApiUpload {
         }
     }
 
+    @Override
+    public boolean uploadStream(String bucket, String objName, InputStream inputStream, String contentType) {
+        boolean process = false;
+        try {
+            lock.lock();
+            MinioClient client = minioConfig.client();
+            boolean isExist = client.bucketExists(BucketExistsArgs.builder().bucket(bucket).build());
+            if (!isExist){
+                client.makeBucket(MakeBucketArgs.builder()
+                        .bucket(bucket).build());
+                logger.info("添加新的bucket到服务器,key为:{}",bucket);
+                logger.info("判断是否创建子目录.....");
+                minioConfig.setDefaultPolicy(bucket);
+            }
+            process = reUpload(bucket,objName,inputStream,contentType);
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            lock.unlock();
+        }
+        return process;
+    }
+
     private boolean reUpload (String bucket,String objName,InputStream inputStream,String contentType) throws Exception {
 
         String[] split = objName.split("/");
+        MinioClient client = minioConfig.client();
         if (objName.endsWith("/")) {
-            MinioConfig.client().putObject(
+            client.putObject(
                     PutObjectArgs.builder().bucket(bucket).object(objName).stream(
                             new ByteArrayInputStream(new byte[] {}), 0, -1).build());
             logger.info("只创建目录.....成功");
             return true;
         } else if (split.length > 1){
             String dir = objName.substring(0,objName.lastIndexOf("/") + 1);
-            MinioConfig.client().putObject(
+            client.putObject(
                     PutObjectArgs.builder().bucket(bucket).object(dir).stream(
                             new ByteArrayInputStream(new byte[] {}), 0, -1).build());
             logger.info("创建目录并存放至该目录下.....成功");
         }
-        MinioConfig.client().putObject(PutObjectArgs.builder().bucket(bucket).object(objName).stream(
+        client.putObject(PutObjectArgs.builder().bucket(bucket).object(objName).stream(
                 inputStream, -1, 10485760).contentType(contentType).build());
         return true;
     }

@@ -1,6 +1,0 @@
-2020-08-25 09:24:04,100 WARN [master-db] jdbc:mysql://127.0.0.1:3306/nacos_config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&serverTimezone=UTC
-
-2020-08-25 09:24:05,376 WARN useAddressServer:true
-
-2020-08-25 09:24:05,490 WARN isQuickStart:false
-

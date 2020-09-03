@@ -38,6 +38,11 @@ public class MsgController {
         this.apiService = apiService;
     }
 
+    @RequestMapping(value = "/refresh")
+    public void refresh(){
+        System.out.println("success");
+    }
+
     @GetMapping(value = "/echo/{string}")
     public String echo(@PathVariable String string) {
         return string;

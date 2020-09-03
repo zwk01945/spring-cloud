@@ -8,6 +8,8 @@ import org.slf4j.LoggerFactory;
 import com.cloud.properter.Config;
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 
 /**
  * ClassName: FileUtils
@@ -134,6 +136,30 @@ public class FileUtil {
         return dir.delete();
     }
 
+
+    public static void writeAsStream(InputStream in, OutputStream out) throws IOException {
+        try {
+            int length = 0;
+            byte[] buffer = new byte[1024];
+            //
+            int len = 0;
+            // 循环将输入流中的内容读取到缓冲区当中
+            while ((len = in.read(buffer)) > 0) {
+                // 输出缓冲区的内容到浏览器，实现文件下载
+                out.write(buffer, 0, len);
+            }
+            out.flush();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (in != null) {
+                in.close();
+            }
+            if (out != null) {
+                out.close();
+            }
+        }
+    }
 
     /**
      * 添加日志到本地操作文件中

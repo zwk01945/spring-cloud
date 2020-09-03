@@ -26,7 +26,7 @@ public interface ApiUpload {
 
     boolean uploadByObject(String filePath,String bucket,String objName,String contentType);
 
-    InputStream  read(String bucket, String objName);
+    InputStream  read(String bucket, String objName) throws Exception;
 
     void  download(String filePath, String bucket, String objName);
 
@@ -35,4 +35,6 @@ public interface ApiUpload {
     void removeBucket(String bucket);
 
     void removeObject(String bucket,String objName);
+
+    boolean uploadStream(String bucket,String objName,InputStream inputStream,String contentType);
 }

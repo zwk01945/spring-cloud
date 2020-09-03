@@ -14,6 +14,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
+import org.springframework.cloud.context.environment.EnvironmentChangeEvent;
 import org.springframework.cloud.gateway.event.RefreshRoutesEvent;
 import org.springframework.cloud.gateway.filter.FilterDefinition;
 import org.springframework.cloud.gateway.handler.predicate.PredicateDefinition;
@@ -24,6 +25,7 @@ import org.springframework.context.ApplicationEventPublisherAware;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.event.ContextRefreshedEvent;
+import org.springframework.context.event.EventListener;
 import org.springframework.util.StringUtils;
 import org.springframework.web.util.UriComponentsBuilder;
 import reactor.core.publisher.Mono;
@@ -31,15 +33,16 @@ import java.net.URI;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
+import java.util.Set;
 import java.util.concurrent.Executor;
 
 /**************************************************************
  ***       S  T  A  G  E    多模块依赖项目                    ***
  **************************************************************
  *                                                            *
- *         Project Name : cloud             *
+ *         Project Name : cloud                               *
  *                                                            *
- *         File Name : AutoRouteConfig.java                           *
+ *         File Name : AutoRouteConfig.java                   *
  *                                                            *
  *         Programmer : Mr.zhang                              *
  *                                                            *
@@ -53,7 +56,7 @@ import java.util.concurrent.Executor;
  * - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 @Configuration
 @RefreshScope
-public class AutoRouteConfig implements ApplicationEventPublisherAware, CommandLineRunner, InitializingBean {
+public class AutoRouteConfig implements ApplicationEventPublisherAware, CommandLineRunner {
 
     private final Logger log = LoggerFactory.getLogger(AutoRouteConfig.class);
 
@@ -66,26 +69,91 @@ public class AutoRouteConfig implements ApplicationEventPublisherAware, CommandL
 //    @Value("${nacos.namespace:#{null}}")
 //    private String NAMESPACE;
 
+    private String SERVER_ADDR_OLD;
+    private String DATA_ID_OLD;
+    private String GROUP_OLD;
+
+    public String getSERVER_ADDR_OLD() {
+        return SERVER_ADDR_OLD;
+    }
+
+    public void setSERVER_ADDR_OLD(String SERVER_ADDR_OLD) {
+        this.SERVER_ADDR_OLD = SERVER_ADDR_OLD;
+    }
+
+    public String getDATA_ID_OLD() {
+        return DATA_ID_OLD;
+    }
+
+    public void setDATA_ID_OLD(String DATA_ID_OLD) {
+        this.DATA_ID_OLD = DATA_ID_OLD;
+    }
+
+    public String getGROUP_OLD() {
+        return GROUP_OLD;
+    }
+
+    public void setGROUP_OLD(String GROUP_OLD) {
+        this.GROUP_OLD = GROUP_OLD;
+    }
+
     public RouteDefinitionWriter routeDefinitionWriter;
 
     public ApplicationEventPublisher applicationEventPublisher;
 
-    public ConfigService configService;
+    public final ThreadLocal<ConfigService> configService = new ThreadLocal<>();
+
     @Autowired
     public void setRouteDefinitionWriter(RouteDefinitionWriter routeDefinitionWriter) {
         this.routeDefinitionWriter = routeDefinitionWriter;
     }
-
     @Override
     public void setApplicationEventPublisher(ApplicationEventPublisher applicationEventPublisher) {
         this.applicationEventPublisher = applicationEventPublisher;
     }
 
+
+    public void envListener() {
+        log.info("监听到工程yaml配置动态变化");
+            //需要重新绑定监听特殊文件
+            try {
+                log.info("data_id,group:{},{}",DATA_ID,GROUP);
+                setDATA_ID_OLD(DATA_ID);
+                setGROUP_OLD(GROUP);
+                setSERVER_ADDR_OLD(SERVER_ADDR);
+                log.info("data_id_old,group_old:{},{}",DATA_ID_OLD,GROUP_OLD);
+                Properties properties = new Properties();
+                properties.setProperty(PropertyKeyConst.SERVER_ADDR,SERVER_ADDR);
+                ConfigService service = NacosFactory.createConfigService(properties);
+                creatListener(service);
+            } catch (NacosException e) {
+                e.printStackTrace();
+            }
+    }
+
     @Override
     public void run(String... args) throws Exception {
-        log.info("网关启动从nacos拉取网关配置信息.....");
+        log.info("网关启动创建网关配置信息配置类configService.....");
+        log.info("data_id,group:{},{}",DATA_ID,GROUP);
+        setDATA_ID_OLD(DATA_ID);
+        setGROUP_OLD(GROUP);
+        setSERVER_ADDR_OLD(SERVER_ADDR);
+        log.info("data_id_old,group_old:{},{}",DATA_ID_OLD,GROUP_OLD);
+
+        Properties properties = new Properties();
+        properties.setProperty(PropertyKeyConst.SERVER_ADDR,SERVER_ADDR);
+        ConfigService service = NacosFactory.createConfigService(properties);
+        //服务启动创建监听
+        creatListener(service);
+        //初始化拉取数据
+        buildFromNacos();
+
+    }
+
+    private void buildFromNacos() throws NacosException {
+        log.info("从nacos拉取网关配置信息.....");
         log.info("data_id,group,timeoutMs:{},{},{}",DATA_ID,GROUP,5000);
-        String config = configService.getConfig(DATA_ID, GROUP, 5000);
+        String config = configService.get().getConfig(DATA_ID, GROUP, 5000);
         System.out.println(config);
         boolean nacosConfig = StringUtils.isEmpty(config);
         if (nacosConfig) {
@@ -101,19 +169,11 @@ public class AutoRouteConfig implements ApplicationEventPublisherAware, CommandL
         }
     }
 
-    @Override
-    public void afterPropertiesSet() throws Exception {
-        log.info("data_id,group:{},{}",DATA_ID,GROUP);
-        Properties properties = new Properties();
-        properties.setProperty(PropertyKeyConst.SERVER_ADDR,SERVER_ADDR);
-        configService = NacosFactory.createConfigService(properties);
-    }
 
-    @Bean
-    public void refreshRoutes() throws NacosException {
+    public void creatListener(ConfigService service) throws NacosException {
         log.info("初始化添加nacos listener.....");
         log.info("data_id,group:{},{}",DATA_ID,GROUP);
-        configService.addListener(DATA_ID, GROUP, new Listener() {
+        service.addListener(DATA_ID, GROUP, new Listener() {
             @Override
             public Executor getExecutor() {
                 return null;
@@ -130,8 +190,32 @@ public class AutoRouteConfig implements ApplicationEventPublisherAware, CommandL
                 }
             }
         });
-
+        configService.set(service);
     }
+
+//    @Bean
+//    public void refreshRoutes() throws NacosException {
+//        log.info("初始化添加nacos listener.....");
+//        log.info("data_id,group:{},{}",DATA_ID,GROUP);
+//        configService.addListener(DATA_ID, GROUP, new Listener() {
+//            @Override
+//            public Executor getExecutor() {
+//                return null;
+//            }
+//
+//            @Override
+//            public void receiveConfigInfo(String configInfo) {
+//                boolean refreshGatewayRoute = JSONObject.parseObject(configInfo).getBoolean("refreshGatewayRoute");
+//                if (refreshGatewayRoute) {
+//                    List<RouteEntity> list = JSON.parseArray(JSONObject.parseObject(configInfo).getString("routeList")).toJavaList(RouteEntity.class);
+//                    list.forEach(route ->  update(assembleRouteDefinition(route)));
+//                } else {
+//                    log.info("路由未发生变更");
+//                }
+//            }
+//        });
+//
+//    }
 
     /**
      * 路由更新

@@ -1,0 +1,878 @@
+2020-08-31 09:18:50,646 INFO The server IP list of Nacos is [192.168.2.157:8848, 192.168.2.157:8849, 192.168.2.157:8850]
+
+2020-08-31 09:18:50,723 INFO Starting Nacos v1.2.1 on DESKTOP-0KKUC7E with PID 12696 (D:\projectsources\cloud\tools\nacos-cluster\8848\target\nacos-server.jar started by zyl in D:\projectsources\cloud\tools\nacos-cluster\8848\bin)
+
+2020-08-31 09:18:50,725 INFO No active profile set, falling back to default profiles: default
+
+2020-08-31 09:18:51,694 INFO Nacos is starting...
+
+2020-08-31 09:18:52,697 INFO Nacos is starting...
+
+2020-08-31 09:18:53,719 INFO Nacos is starting...
+
+2020-08-31 09:18:53,953 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$34e32551] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-08-31 09:18:54,057 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-08-31 09:18:54,060 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@72c8e7b' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-08-31 09:18:54,061 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$59b7c803] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-08-31 09:18:54,065 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-08-31 09:18:54,729 INFO Nacos is starting...
+
+2020-08-31 09:18:54,778 INFO Tomcat initialized with port(s): 8848 (http)
+
+2020-08-31 09:18:54,799 INFO Initializing ProtocolHandler ["http-nio-8848"]
+
+2020-08-31 09:18:54,821 INFO Starting service [Tomcat]
+
+2020-08-31 09:18:54,821 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2020-08-31 09:18:54,848 INFO An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
+
+2020-08-31 09:18:54,848 INFO Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+
+2020-08-31 09:18:54,849 INFO APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+
+2020-08-31 09:18:54,849 INFO APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+
+2020-08-31 09:18:55,739 INFO Nacos is starting...
+
+2020-08-31 09:18:55,898 INFO OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+
+2020-08-31 09:18:56,163 INFO Initializing Spring embedded WebApplicationContext
+
+2020-08-31 09:18:56,163 INFO Root WebApplicationContext: initialization completed in 5294 ms
+
+2020-08-31 09:18:56,740 INFO Nacos is starting...
+
+2020-08-31 09:18:56,942 INFO Use Mysql 8 as the driver
+
+2020-08-31 09:18:57,740 INFO Nacos is starting...
+
+2020-08-31 09:18:58,772 INFO Nacos is starting...
+
+2020-08-31 09:18:59,829 INFO Nacos is starting...
+
+2020-08-31 09:19:00,922 INFO Nacos is starting...
+
+2020-08-31 09:19:01,612 INFO Reflections took 144 ms to scan 1 urls, producing 6 keys and 24 values 
+
+2020-08-31 09:19:01,717 INFO Reflections took 7 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2020-08-31 09:19:01,728 INFO Reflections took 5 ms to scan 1 urls, producing 3 keys and 15 values 
+
+2020-08-31 09:19:02,217 INFO Nacos is starting...
+
+2020-08-31 09:19:03,224 INFO Nacos is starting...
+
+2020-08-31 09:19:03,609 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2020-08-31 09:19:03,798 INFO Adding welcome page: class path resource [static/index.html]
+
+2020-08-31 09:19:04,354 INFO Nacos is starting...
+
+2020-08-31 09:19:04,601 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2020-08-31 09:19:04,640 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7fc44dec, org.springframework.security.web.context.SecurityContextPersistenceFilter@9ed238c, org.springframework.security.web.header.HeaderWriterFilter@1c80e49b, org.springframework.security.web.csrf.CsrfFilter@5b64c4b7, org.springframework.security.web.authentication.logout.LogoutFilter@2dbf4cbd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@51e8e6e6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5b408dc3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7e3060d8, org.springframework.security.web.session.SessionManagementFilter@15c25153, org.springframework.security.web.access.ExceptionTranslationFilter@72445aba]
+
+2020-08-31 09:19:04,841 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2020-08-31 09:19:04,872 INFO Initializing ExecutorService 'taskScheduler'
+
+2020-08-31 09:19:04,939 INFO Starting ProtocolHandler ["http-nio-8848"]
+
+2020-08-31 09:19:04,941 INFO Using a shared selector for servlet write/read
+
+2020-08-31 09:19:05,025 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2020-08-31 09:19:05,031 INFO Started Nacos in 16.004 seconds (JVM running for 17.601)
+
+2020-08-31 09:19:05,031 INFO Nacos logs files: D:\projectsources\cloud\tools\nacos-cluster\8848\logs\
+
+2020-08-31 09:19:05,035 INFO Nacos conf files: D:\projectsources\cloud\tools\nacos-cluster\8848\conf\
+
+2020-08-31 09:19:05,036 INFO Nacos data files: D:\projectsources\cloud\tools\nacos-cluster\8848\data\
+
+2020-08-31 09:19:05,037 INFO Nacos started successfully in cluster mode.
+
+2020-08-31 09:19:05,208 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2020-08-31 09:19:05,208 INFO Initializing Servlet 'dispatcherServlet'
+
+2020-08-31 09:19:05,220 INFO Completed initialization in 12 ms
+
+2020-08-31 09:26:37,002 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:26:37,016 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:26:38,168 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:26:38,168 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:26:38,444 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:26:38,444 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:26:38,645 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:26:38,645 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:27:08,151 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:27:08,151 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:27:20,396 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:27:20,396 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:29:02,540 INFO [capacityManagement] start correct usage
+
+2020-08-31 09:29:02,574 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-08-31 09:29:02,938 WARN clearConfigHistory start
+
+2020-08-31 09:29:07,660 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:29:07,661 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:29:08,291 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:29:08,291 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:29:08,485 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:29:08,485 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:29:08,685 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:29:08,685 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:29:29,699 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:29:29,700 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:29:29,732 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:29:29,732 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:29:37,371 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:29:37,371 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:39:02,495 INFO [capacityManagement] start correct usage
+
+2020-08-31 09:39:02,498 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-08-31 09:39:02,871 WARN clearConfigHistory start
+
+2020-08-31 09:40:15,526 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:40:15,526 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:40:18,501 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:40:18,501 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:40:19,564 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:40:19,565 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:40:19,763 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:40:19,763 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:40:49,280 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:40:49,280 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:41:18,796 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:41:18,796 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:41:46,935 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:41:46,935 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:41:46,968 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:41:46,968 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:42:16,481 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:42:16,481 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:42:16,605 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:42:16,605 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:42:43,148 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:42:43,148 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:42:45,977 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:42:45,978 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:42:45,995 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:42:45,995 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:43:15,505 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:43:15,505 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:43:15,656 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:43:15,656 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:43:27,927 INFO listen config id:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:43:27,928 INFO listen config id 2:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:43:28,127 INFO listen config id:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:43:28,127 INFO listen config id 2:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:43:28,329 INFO listen config id:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:43:28,330 INFO listen config id 2:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:43:45,006 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:43:45,006 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:43:57,632 INFO listen config id:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:43:57,632 INFO listen config id 2:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:44:14,517 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:44:14,517 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:44:26,952 INFO listen config id:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:44:26,952 INFO listen config id 2:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:44:27,358 INFO listen config id:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:44:27,358 INFO listen config id 2:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:44:44,030 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:44:44,030 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:44:56,471 INFO listen config id:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:44:56,471 INFO listen config id 2:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:44:56,659 INFO listen config id:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:44:56,659 INFO listen config id 2:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:45:13,540 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:45:13,540 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:45:26,168 INFO listen config id:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:45:26,168 INFO listen config id 2:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:45:43,043 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:45:43,043 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:45:55,492 INFO listen config id:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:45:55,492 INFO listen config id 2:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:45:55,908 INFO listen config id:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:45:55,908 INFO listen config id 2:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:46:12,545 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:46:12,545 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:46:25,209 INFO listen config id:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:46:25,209 INFO listen config id 2:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:46:42,050 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:46:42,052 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:46:54,537 INFO listen config id:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:46:54,537 INFO listen config id 2:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:46:54,941 INFO listen config id:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:46:54,941 INFO listen config id 2:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:47:11,564 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:47:11,564 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:47:24,245 INFO listen config id:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:47:24,245 INFO listen config id 2:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:47:41,074 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:47:41,074 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:47:53,567 INFO listen config id:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:47:53,568 INFO listen config id 2:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:47:53,963 INFO listen config id:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:47:53,963 INFO listen config id 2:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:48:10,580 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:48:10,580 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:48:23,283 INFO listen config id:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:48:23,283 INFO listen config id 2:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:48:40,086 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:48:40,086 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:48:53,011 INFO listen config id:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:48:53,012 INFO listen config id 2:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:49:02,440 INFO [capacityManagement] start correct usage
+
+2020-08-31 09:49:02,444 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-08-31 09:49:02,814 WARN clearConfigHistory start
+
+2020-08-31 09:49:09,591 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:49:09,591 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:49:22,131 INFO listen config id:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:49:22,131 INFO listen config id 2:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:49:22,517 INFO listen config id:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:49:22,517 INFO listen config id 2:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:49:39,100 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:49:39,100 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:49:51,828 INFO listen config id:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:49:51,828 INFO listen config id 2:minio.configDEFAULT_GROUP69c46693aa1371f151ee55d68d49a89a
+
+2020-08-31 09:50:08,617 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:50:08,617 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:50:28,464 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:50:28,464 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:50:38,119 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:50:38,119 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:50:57,573 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:50:57,574 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:50:57,976 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:50:57,976 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:51:07,626 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:51:07,626 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:51:27,296 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:51:27,297 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:51:37,144 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:51:37,144 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:51:56,618 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:51:56,618 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:51:57,014 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:51:57,015 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:52:06,649 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:52:06,650 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:52:26,329 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:52:26,329 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:52:36,164 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:52:36,164 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:52:55,665 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:52:55,665 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:52:56,069 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:52:56,069 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:53:05,676 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:53:05,676 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:53:25,366 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:53:25,367 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:53:35,192 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:53:35,192 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:53:54,700 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:53:54,700 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:53:55,107 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:53:55,107 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:54:04,707 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:54:04,707 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:54:24,226 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:54:24,226 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:54:24,400 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:54:24,400 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:54:30,723 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:54:30,723 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:54:30,843 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:54:30,843 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:54:53,909 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:54:53,909 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:55:00,348 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:55:00,348 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:55:17,655 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:55:17,655 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:55:17,682 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:55:17,682 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:55:23,267 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:55:23,267 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:55:50,511 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:55:50,511 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:55:50,920 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:55:50,921 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:55:51,122 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:55:51,122 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:55:51,323 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:55:51,323 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:56:20,835 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:56:20,835 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:56:37,634 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:56:37,634 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:56:37,664 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:56:37,665 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:56:49,953 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:56:49,953 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:57:07,177 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:57:07,177 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:57:19,074 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:57:19,074 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:57:36,688 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:57:36,688 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:57:36,690 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:57:36,690 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:57:48,988 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:57:48,988 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:58:06,197 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:58:06,197 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:58:18,112 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:58:18,112 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:58:35,703 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:58:35,703 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP7bfcbc5f1e8746060b495c7723e803cdspring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:58:41,802 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:58:41,802 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:58:41,835 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:58:41,835 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:58:48,022 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:58:48,022 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:59:02,401 INFO [capacityManagement] start correct usage
+
+2020-08-31 09:59:02,408 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-08-31 09:59:02,777 WARN clearConfigHistory start
+
+2020-08-31 09:59:05,258 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:59:05,258 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:59:11,348 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:59:11,348 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:59:17,530 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:59:17,530 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:59:34,781 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:59:34,781 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:59:40,837 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:59:40,837 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:59:40,851 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:59:40,851 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 09:59:47,044 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 09:59:47,044 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:00:04,287 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:00:04,287 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:00:10,352 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 10:00:10,352 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 10:00:10,352 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:00:10,352 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:00:16,175 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:00:16,175 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:00:16,558 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:00:16,558 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:00:33,807 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:00:33,807 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:00:39,866 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 10:00:39,866 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 10:00:39,866 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:00:39,866 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:00:45,691 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:00:45,691 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:01:03,323 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:01:03,323 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:01:09,386 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:01:09,386 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:01:09,388 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 10:01:09,388 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 10:01:15,212 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:01:15,212 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:01:32,830 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:01:32,830 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:01:38,903 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 10:01:38,903 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 10:01:38,903 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:01:38,903 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:01:44,722 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:01:44,722 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:02:02,334 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:02:02,334 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:02:08,409 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 10:02:08,409 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 10:02:08,410 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:02:08,410 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:02:14,239 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:02:14,239 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:02:37,920 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 10:02:37,920 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 10:02:37,921 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:02:37,921 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:02:43,757 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:02:43,757 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:03:07,429 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 10:03:07,429 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 10:03:07,431 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:03:07,431 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:03:13,273 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:03:13,273 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:03:36,943 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 10:03:36,943 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 10:03:42,776 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:03:42,776 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:04:06,451 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 10:04:06,451 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 10:04:35,958 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 10:04:35,958 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 10:04:42,215 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:04:42,216 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:05:05,466 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 10:05:05,466 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 10:05:11,743 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:05:11,744 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:05:34,977 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 10:05:34,977 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 10:05:41,262 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:05:41,262 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:06:04,485 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 10:06:04,485 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 10:06:10,792 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:06:10,792 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:06:28,029 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:06:28,029 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:06:33,995 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 10:06:33,996 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 10:06:40,302 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:06:40,302 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:06:57,546 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:06:57,546 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:07:03,507 INFO listen config id:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 10:07:03,507 INFO listen config id 2:spring-cloud-minio.propertiesDEFAULT_GROUP34d96de10d1c4e0dc0f8ee0a80d43ae9spring-cloud-minioDEFAULT_GROUP
+
+2020-08-31 10:07:09,818 INFO listen config id:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:07:09,818 INFO listen config id 2:minio.configDEFAULT_GROUPd7fb8a2a7974b3d1714a76a26a8d1ba1
+
+2020-08-31 10:09:02,373 INFO [capacityManagement] start correct usage
+
+2020-08-31 10:09:02,378 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-08-31 10:09:02,747 WARN clearConfigHistory start
+
+2020-08-31 10:19:02,336 INFO [capacityManagement] start correct usage
+
+2020-08-31 10:19:02,339 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-08-31 10:19:02,711 WARN clearConfigHistory start
+
+2020-08-31 10:29:02,303 INFO [capacityManagement] start correct usage
+
+2020-08-31 10:29:02,305 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-08-31 10:29:02,678 WARN clearConfigHistory start
+
+2020-08-31 10:39:02,291 INFO [capacityManagement] start correct usage
+
+2020-08-31 10:39:02,297 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-08-31 10:39:02,666 WARN clearConfigHistory start
+
+2020-08-31 10:49:02,287 INFO [capacityManagement] start correct usage
+
+2020-08-31 10:49:02,292 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-08-31 10:49:02,663 WARN clearConfigHistory start
+
+2020-08-31 10:59:02,281 INFO [capacityManagement] start correct usage
+
+2020-08-31 10:59:02,283 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-08-31 10:59:02,651 WARN clearConfigHistory start
+
+2020-08-31 11:09:02,277 INFO [capacityManagement] start correct usage
+
+2020-08-31 11:09:02,280 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-08-31 11:09:02,654 WARN clearConfigHistory start
+
+2020-08-31 11:19:02,281 INFO [capacityManagement] start correct usage
+
+2020-08-31 11:19:02,285 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-08-31 11:19:02,655 WARN clearConfigHistory start
+
+2020-08-31 11:29:02,277 INFO [capacityManagement] start correct usage
+
+2020-08-31 11:29:02,279 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-08-31 11:29:02,650 WARN clearConfigHistory start
+
+2020-08-31 11:39:02,285 INFO [capacityManagement] start correct usage
+
+2020-08-31 11:39:02,287 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-08-31 11:39:02,655 WARN clearConfigHistory start
+
+2020-08-31 11:49:02,286 INFO [capacityManagement] start correct usage
+
+2020-08-31 11:49:02,291 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-08-31 11:49:02,658 WARN clearConfigHistory start
+
+2020-08-31 11:59:02,299 INFO [capacityManagement] start correct usage
+
+2020-08-31 11:59:02,303 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-08-31 11:59:02,671 WARN clearConfigHistory start
+
+2020-08-31 12:09:02,304 INFO [capacityManagement] start correct usage
+
+2020-08-31 12:09:02,309 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-08-31 12:09:02,691 WARN clearConfigHistory start
+
+2020-08-31 12:19:02,310 INFO [capacityManagement] start correct usage
+
+2020-08-31 12:19:02,315 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-08-31 12:19:02,700 WARN clearConfigHistory start
+
+2020-08-31 12:29:02,322 INFO [capacityManagement] start correct usage
+
+2020-08-31 12:29:02,325 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-08-31 12:29:02,712 WARN clearConfigHistory start
+
+2020-08-31 12:39:02,324 INFO [capacityManagement] start correct usage
+
+2020-08-31 12:39:02,327 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-08-31 12:39:02,715 WARN clearConfigHistory start
+

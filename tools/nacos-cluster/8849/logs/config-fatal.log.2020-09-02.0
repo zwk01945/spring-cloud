@@ -1,0 +1,12 @@
+2020-09-02 09:10:21,530 WARN [master-db] jdbc:mysql://127.0.0.1:3306/nacos_config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&serverTimezone=UTC
+
+2020-09-02 09:10:22,847 WARN useAddressServer:true
+
+2020-09-02 09:10:22,962 WARN isQuickStart:false
+
+2020-09-02 10:53:58,840 WARN [master-db] jdbc:mysql://127.0.0.1:3306/nacos_config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&serverTimezone=UTC
+
+2020-09-02 10:54:01,661 WARN useAddressServer:true
+
+2020-09-02 10:54:01,793 WARN isQuickStart:false
+
