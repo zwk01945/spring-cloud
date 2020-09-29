@@ -1,0 +1,4 @@
+2020-09-27 09:04:56,580 INFO DEFAULT_GROUP@@spring-cloud-web {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.157:9011:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-27 09:04:56,585 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-web, ips: 192.168.2.157:9011_true,
+

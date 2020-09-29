@@ -2,6 +2,7 @@ D:\projectsources\cloud\spring-cloud-common\src\main\java\com\cloud\bean\msg\Tem
 D:\projectsources\cloud\spring-cloud-common\src\main\java\com\cloud\exception\MyException.java
 D:\projectsources\cloud\spring-cloud-common\src\main\java\com\cloud\exception\GlobalException.java
 D:\projectsources\cloud\spring-cloud-common\src\main\java\com\cloud\bean\ResultObject.java
+D:\projectsources\cloud\spring-cloud-common\src\main\java\com\cloud\bean\ohters\CoustomerZt.java
 D:\projectsources\cloud\spring-cloud-common\src\main\java\com\cloud\util\redis\RedisUtils.java
 D:\projectsources\cloud\spring-cloud-common\src\main\java\com\cloud\util\date\DateConstant.java
 D:\projectsources\cloud\spring-cloud-common\src\main\java\com\cloud\properter\Config.java
@@ -13,6 +14,7 @@ D:\projectsources\cloud\spring-cloud-common\src\main\java\com\cloud\handler\WebC
 D:\projectsources\cloud\spring-cloud-common\src\main\java\com\cloud\util\date\DateUtil.java
 D:\projectsources\cloud\spring-cloud-common\src\main\java\com\cloud\handler\DefenseInterceptor.java
 D:\projectsources\cloud\spring-cloud-common\src\main\java\com\cloud\util\file\FileConstant.java
+D:\projectsources\cloud\spring-cloud-common\src\main\java\com\cloud\bean\ohters\IcpCode.java
 D:\projectsources\cloud\spring-cloud-common\src\main\java\com\cloud\aop\annotation\CacheRedis.java
 D:\projectsources\cloud\spring-cloud-common\src\main\java\com\cloud\aop\RedisAspect.java
 D:\projectsources\cloud\spring-cloud-common\src\main\java\com\cloud\properter\DsProperter.java

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cloud.web.dao.StageUserDao">
+  <resultMap id="BaseResultMap" type="com.cloud.bean.web.StageUser">
+    <id column="ID" jdbcType="INTEGER" property="id" />
+    <result column="USER_ID" jdbcType="INTEGER" property="userId" />
+    <result column="USER_NAME" jdbcType="VARCHAR" property="userName" />
+    <result column="USER_ADDRESS" jdbcType="VARCHAR" property="userAddress" />
+    <result column="USER_PHONE" jdbcType="VARCHAR" property="userPhone" />
+    <result column="USER_MAIL" jdbcType="VARCHAR" property="userMail" />
+    <result column="DATA_YHBS" jdbcType="VARCHAR" property="dataYhbs" />
+    <result column="USER_PASSWORD" jdbcType="VARCHAR" property="userPassword" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    ID, USER_ID, USER_NAME, USER_ADDRESS, USER_PHONE, USER_MAIL, DATA_YHBS,USER_PASSWORD
+  </sql>
+  <select id="findCateByUser" parameterType="com.cloud.bean.web.StageUser" resultType="java.util.Map">
+    select stage_user.USER_NAME,sc.*,sr.ROUTE_URL,sr.ROUTE_ICON from stage_user
+left join stage_category sc on stage_user.DATA_YHBS = sc.DATA_YHBS
+left join stage_route as sr on sc.CATEGORY_ID = sr.CATE_ID
+<where>
+  <if test="stageUser != null and stageUser.userId != null and stageUser.userId != ''">
+   and  stage_user.USER_ID = #{stageUser.userId}
+  </if>
+  <if test="stageUser != null and stageUser.userName != null and stageUser.userName != ''">
+   and  stage_user.USER_NAME = #{stageUser.userName}
+  </if>
+</where>
+  </select>
+
+
+  <select id="loginCheck" parameterType="com.cloud.bean.web.StageUser"  resultMap="BaseResultMap">
+        select ID, USER_ID, USER_NAME, USER_ADDRESS, USER_PHONE, USER_MAIL, DATA_YHBS,USER_PASSWORD
+        from stage_user
+    <where>
+      <if test="loginUser != null and loginUser.userId != null and loginUser.userId != ''">
+        and  stage_user.USER_ID = #{loginUser.userId}
+      </if>
+      <if test="loginUser != null and loginUser.userName != null and loginUser.userName != ''">
+        and  stage_user.USER_NAME = #{loginUser.userName}
+      </if>
+    </where>
+  </select>
+</mapper>

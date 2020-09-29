@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=common.jar -DgroupId=com.example -DartifactId=common -Dversion=0.0.1-SNAPSHOT -Dpackaging=jar

@@ -4,8 +4,8 @@ import com.cloud.aop.annotation.CacheRedis;
 import com.cloud.bean.ResultObject;
 import com.cloud.web.feign.MasterService;
 import com.cloud.web.feign.SlaveService;
-import io.seata.core.context.RootContext;
-import io.seata.spring.annotation.GlobalTransactional;
+//import io.seata.core.context.RootContext;
+//import io.seata.spring.annotation.GlobalTransactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -53,9 +53,9 @@ public class AserviceImpl implements Aservice {
 
 
     @Override
-    @GlobalTransactional
+//    @GlobalTransactional
     public void insert() {
-        System.out.println("==================="+ RootContext.getXID());
+//        System.out.println("==================="+ RootContext.getXID());
         ResultObject master = masterService.insert();
         ResultObject slave = slaveService.insert();
 

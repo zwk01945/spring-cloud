@@ -1,0 +1,82 @@
+2020-09-23 10:39:27,930 INFO DEFAULT_GROUP@@spring-cloud-web {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.157:9011:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-23 10:39:27,944 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-web, ips: 192.168.2.157:9011_true,
+
+2020-09-23 10:47:02,671 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-web, ips: 192.168.2.157:9011_true,
+
+2020-09-23 10:50:38,714 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-web, ips: 192.168.2.157:9011_true,
+
+2020-09-23 13:41:30,768 INFO {POS} {IP-DISABLED} valid: 192.168.2.157:9011@DEFAULT@DEFAULT_GROUP@@spring-cloud-web, region: unknown, msg: client timeout after 15000, last beat: 1600839672431
+
+2020-09-23 13:41:54,758 INFO DEFAULT_GROUP@@spring-cloud-web {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.157:9011:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-09-23 13:41:54,759 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-web, ips: 
+
+2020-09-23 13:42:27,932 INFO DEFAULT_GROUP@@spring-cloud-web {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.157:9011:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-23 13:42:27,932 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-web, ips: 192.168.2.157:9011_true,
+
+2020-09-23 13:45:34,248 INFO {POS} {IP-DISABLED} valid: 192.168.2.157:9011@DEFAULT@DEFAULT_GROUP@@spring-cloud-web, region: unknown, msg: client timeout after 15000, last beat: 1600839918916
+
+2020-09-23 13:45:34,390 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-web, ips: 192.168.2.157:9011_false,
+
+2020-09-23 13:45:39,423 INFO service: DEFAULT_GROUP@@spring-cloud-web {POS} {IP-ENABLED} valid: 192.168.2.157:9011@DEFAULT, region: unknown, msg: client beat ok
+
+2020-09-23 13:47:44,645 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-web, ips: 192.168.2.157:9011_true,
+
+2020-09-23 13:48:20,146 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-web, ips: 192.168.2.157:9011_true,
+
+2020-09-23 13:50:04,072 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-web, ips: 192.168.2.157:9011_true,
+
+2020-09-23 13:50:44,812 INFO {POS} {IP-DISABLED} valid: 192.168.2.157:9011@DEFAULT@DEFAULT_GROUP@@spring-cloud-web, region: unknown, msg: client timeout after 15000, last beat: 1600840229185
+
+2020-09-23 13:50:59,859 INFO DEFAULT_GROUP@@spring-cloud-web {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.157:9011:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-09-23 13:50:59,859 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-web, ips: 
+
+2020-09-23 13:51:23,891 INFO DEFAULT_GROUP@@spring-cloud-web {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.157:9011:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-23 13:51:23,891 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-web, ips: 192.168.2.157:9011_true,
+
+2020-09-23 13:54:36,862 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-web, ips: 192.168.2.157:9011_true,
+
+2020-09-23 13:59:15,515 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-web, ips: 192.168.2.157:9011_true,
+
+2020-09-23 14:01:29,103 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-web, ips: 192.168.2.157:9011_true,
+
+2020-09-23 14:02:09,155 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-web, ips: 192.168.2.157:9011_true,
+
+2020-09-23 14:03:02,579 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-web, ips: 192.168.2.157:9011_true,
+
+2020-09-23 14:05:35,107 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-web, ips: 192.168.2.157:9011_true,
+
+2020-09-23 14:06:56,253 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-web, ips: 192.168.2.157:9011_true,
+
+2020-09-23 14:08:03,485 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-web, ips: 192.168.2.157:9011_true,
+
+2020-09-23 14:09:00,422 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-web, ips: 192.168.2.157:9011_true,
+
+2020-09-23 14:10:51,749 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-web, ips: 192.168.2.157:9011_true,
+
+2020-09-23 14:18:50,643 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-web, ips: 192.168.2.157:9011_true,
+
+2020-09-23 14:33:18,560 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-web, ips: 192.168.2.157:9011_true,
+
+2020-09-23 14:34:02,230 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-web, ips: 192.168.2.157:9011_true,
+
+2020-09-23 14:34:37,962 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-web, ips: 192.168.2.157:9011_true,
+
+2020-09-23 14:35:39,396 INFO {POS} {IP-DISABLED} valid: 192.168.2.157:9011@DEFAULT@DEFAULT_GROUP@@spring-cloud-web, region: unknown, msg: client timeout after 15000, last beat: 1600842923137
+
+2020-09-23 14:35:42,158 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-web, ips: 192.168.2.157:9011_false,
+
+2020-09-23 14:35:47,199 INFO service: DEFAULT_GROUP@@spring-cloud-web {POS} {IP-ENABLED} valid: 192.168.2.157:9011@DEFAULT, region: unknown, msg: client beat ok
+
+2020-09-23 15:35:35,429 INFO {POS} {IP-DISABLED} valid: 192.168.2.157:9011@DEFAULT@DEFAULT_GROUP@@spring-cloud-web, region: unknown, msg: client timeout after 15000, last beat: 1600846519411
+
+2020-09-23 15:35:44,442 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-web, ips: 192.168.2.157:9011_false,
+
+2020-09-23 15:35:49,554 INFO service: DEFAULT_GROUP@@spring-cloud-web {POS} {IP-ENABLED} valid: 192.168.2.157:9011@DEFAULT, region: unknown, msg: client beat ok
+
+2020-09-23 15:48:08,256 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-web, ips: 192.168.2.157:9011_true,
+

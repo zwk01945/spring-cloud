@@ -4,8 +4,8 @@ import com.cloud.bean.ResultObject;
 import com.cloud.web.feign.MasterService;
 import com.cloud.web.feign.SlaveService;
 import com.cloud.web.service.Aservice;
-import io.seata.core.context.RootContext;
-import io.seata.spring.annotation.GlobalTransactional;
+//import io.seata.core.context.RootContext;
+//import io.seata.spring.annotation.GlobalTransactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -38,6 +38,5 @@ public class TestController {
         aservice.insert();
         return new ResultObject(0,"success",null);
     }
-
 
 }

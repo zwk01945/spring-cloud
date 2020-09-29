@@ -16,5 +16,5 @@ public class MinioApplication {
             e.printStackTrace();
         }
     }
-
+    
 }

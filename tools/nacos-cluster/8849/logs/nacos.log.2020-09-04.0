@@ -1,0 +1,2158 @@
+2020-09-04 09:07:10,241 INFO The server IP list of Nacos is [192.168.2.157:8848, 192.168.2.157:8849, 192.168.2.157:8850]
+
+2020-09-04 09:07:10,279 INFO Starting Nacos v1.2.1 on DESKTOP-0KKUC7E with PID 3948 (D:\projectsources\cloud\tools\nacos-cluster\8849\target\nacos-server.jar started by zyl in D:\projectsources\cloud\tools\nacos-cluster\8849\bin)
+
+2020-09-04 09:07:10,281 INFO No active profile set, falling back to default profiles: default
+
+2020-09-04 09:07:11,290 INFO Nacos is starting...
+
+2020-09-04 09:07:12,357 INFO Nacos is starting...
+
+2020-09-04 09:07:13,389 INFO Nacos is starting...
+
+2020-09-04 09:07:14,399 INFO Nacos is starting...
+
+2020-09-04 09:07:14,792 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$d2a494f3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-09-04 09:07:14,907 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-09-04 09:07:14,910 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6f204a1a' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-09-04 09:07:14,914 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$f77937a5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-09-04 09:07:14,921 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-09-04 09:07:15,410 INFO Nacos is starting...
+
+2020-09-04 09:07:15,651 INFO Tomcat initialized with port(s): 8849 (http)
+
+2020-09-04 09:07:15,667 INFO Initializing ProtocolHandler ["http-nio-8849"]
+
+2020-09-04 09:07:15,704 INFO Starting service [Tomcat]
+
+2020-09-04 09:07:15,704 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2020-09-04 09:07:15,728 INFO An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
+
+2020-09-04 09:07:15,729 INFO Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+
+2020-09-04 09:07:15,729 INFO APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+
+2020-09-04 09:07:15,729 INFO APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+
+2020-09-04 09:07:16,421 INFO Nacos is starting...
+
+2020-09-04 09:07:16,759 INFO OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+
+2020-09-04 09:07:16,854 INFO Initializing Spring embedded WebApplicationContext
+
+2020-09-04 09:07:16,854 INFO Root WebApplicationContext: initialization completed in 6472 ms
+
+2020-09-04 09:07:17,243 INFO Use Mysql 8 as the driver
+
+2020-09-04 09:07:17,422 INFO Nacos is starting...
+
+2020-09-04 09:07:18,424 INFO Nacos is starting...
+
+2020-09-04 09:07:19,103 INFO Reflections took 61 ms to scan 1 urls, producing 6 keys and 24 values 
+
+2020-09-04 09:07:19,165 INFO Reflections took 6 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2020-09-04 09:07:19,175 INFO Reflections took 5 ms to scan 1 urls, producing 3 keys and 15 values 
+
+2020-09-04 09:07:19,429 INFO Nacos is starting...
+
+2020-09-04 09:07:20,438 INFO Nacos is starting...
+
+2020-09-04 09:07:20,447 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2020-09-04 09:07:20,657 INFO Adding welcome page: class path resource [static/index.html]
+
+2020-09-04 09:07:21,007 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2020-09-04 09:07:21,048 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@26a4842b, org.springframework.security.web.context.SecurityContextPersistenceFilter@339bf286, org.springframework.security.web.header.HeaderWriterFilter@5d018107, org.springframework.security.web.csrf.CsrfFilter@4de41af9, org.springframework.security.web.authentication.logout.LogoutFilter@40e10ff8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@269f4bad, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7bc10d84, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7e38a7fe, org.springframework.security.web.session.SessionManagementFilter@29e6eb25, org.springframework.security.web.access.ExceptionTranslationFilter@47404bea]
+
+2020-09-04 09:07:21,408 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2020-09-04 09:07:21,434 INFO Initializing ExecutorService 'taskScheduler'
+
+2020-09-04 09:07:21,442 INFO Nacos is starting...
+
+2020-09-04 09:07:21,497 INFO Starting ProtocolHandler ["http-nio-8849"]
+
+2020-09-04 09:07:21,497 INFO Using a shared selector for servlet write/read
+
+2020-09-04 09:07:21,544 INFO Tomcat started on port(s): 8849 (http) with context path '/nacos'
+
+2020-09-04 09:07:21,550 INFO Started Nacos in 14.078 seconds (JVM running for 16.277)
+
+2020-09-04 09:07:21,551 INFO Nacos logs files: D:\projectsources\cloud\tools\nacos-cluster\8849\logs\
+
+2020-09-04 09:07:21,554 INFO Nacos conf files: D:\projectsources\cloud\tools\nacos-cluster\8849\conf\
+
+2020-09-04 09:07:21,554 INFO Nacos data files: D:\projectsources\cloud\tools\nacos-cluster\8849\data\
+
+2020-09-04 09:07:21,554 INFO Nacos started successfully in cluster mode.
+
+2020-09-04 09:07:21,776 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2020-09-04 09:07:21,776 INFO Initializing Servlet 'dispatcherServlet'
+
+2020-09-04 09:07:21,796 INFO Completed initialization in 20 ms
+
+2020-09-04 09:09:27,970 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:09:27,972 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:09:28,174 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:09:28,175 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:09:48,168 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:09:48,168 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:09:57,887 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:09:57,887 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:10:27,413 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:10:27,414 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:10:56,536 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:10:56,536 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:11:16,912 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:11:16,913 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:11:26,432 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:11:26,432 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:11:55,570 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:11:55,570 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:12:15,961 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:12:15,961 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:12:25,463 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:12:25,463 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:12:54,607 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:12:54,607 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:13:15,001 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:13:15,002 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:13:24,130 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:13:24,130 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:13:24,501 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:13:24,502 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:13:53,644 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:13:53,644 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:13:54,018 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:13:54,019 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:14:23,532 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:14:23,532 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:14:52,693 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:14:52,693 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:15:13,102 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:15:13,102 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:15:22,568 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:15:22,568 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:15:51,732 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:15:51,732 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:16:12,149 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:16:12,149 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:16:21,611 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:16:21,612 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:16:50,771 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:16:50,771 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:17:11,173 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:17:11,173 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:17:19,607 INFO [capacityManagement] start correct usage
+
+2020-09-04 09:17:19,640 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-09-04 09:17:19,948 WARN clearConfigHistory start
+
+2020-09-04 09:17:20,293 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:17:20,293 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:17:20,654 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:17:20,654 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:17:50,163 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:17:50,163 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:18:19,677 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:18:19,677 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:18:48,836 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:18:48,836 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:19:09,254 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:19:09,255 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:19:18,714 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:19:18,715 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:19:47,860 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:19:47,861 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:20:08,276 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:20:08,277 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:20:17,736 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:20:17,736 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:20:46,913 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:20:46,913 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:21:07,321 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:21:07,321 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:21:16,789 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:21:16,789 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:21:46,301 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:21:46,301 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:22:45,007 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:22:45,007 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:23:05,410 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:23:05,410 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:23:14,859 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:23:14,859 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:23:44,043 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:23:44,043 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:24:04,443 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:24:04,444 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:24:13,897 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:24:13,897 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:24:43,106 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:24:43,106 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:25:03,478 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:25:03,479 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:25:12,941 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:25:12,941 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:25:42,470 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:25:42,470 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:26:32,028 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:26:32,029 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:26:41,199 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:26:41,199 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:27:01,536 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:27:01,536 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:27:11,022 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:27:11,022 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:27:19,645 INFO [capacityManagement] start correct usage
+
+2020-09-04 09:27:19,652 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-09-04 09:27:19,972 WARN clearConfigHistory start
+
+2020-09-04 09:27:40,242 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:27:40,242 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:28:00,551 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:28:00,552 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:28:10,054 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:28:10,054 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:28:39,273 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:28:39,273 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:28:59,593 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:28:59,593 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:29:09,102 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:29:09,102 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:30:28,153 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:30:28,153 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:30:37,359 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:30:37,359 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:30:57,673 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:30:57,674 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:31:07,175 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:31:07,175 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:31:36,388 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:31:36,389 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:31:56,707 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:31:56,707 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:32:06,217 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:32:06,218 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:32:35,413 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:32:35,413 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:32:55,734 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:32:55,734 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:33:05,234 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:33:05,235 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:33:54,780 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:33:54,780 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:34:24,295 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:34:24,295 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:34:33,460 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:34:33,461 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:34:53,813 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:34:53,814 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:35:03,320 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:35:03,320 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:35:32,513 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:35:32,513 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:35:52,867 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:35:52,867 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:36:02,356 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:36:02,356 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:36:31,549 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:36:31,549 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:36:51,899 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:36:51,899 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:37:01,394 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:37:01,394 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:37:19,657 INFO [capacityManagement] start correct usage
+
+2020-09-04 09:37:19,677 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-09-04 09:37:19,985 WARN clearConfigHistory start
+
+2020-09-04 09:37:30,582 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:37:30,582 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:37:50,936 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:37:50,936 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:38:00,099 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:38:00,099 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:38:20,444 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:38:20,444 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:38:29,973 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:38:29,973 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:38:59,160 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:38:59,160 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:39:19,485 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:39:19,485 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:39:29,019 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:39:29,020 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:39:58,195 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:39:58,195 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:40:18,537 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:40:18,538 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:40:28,069 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:40:28,069 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:40:57,240 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:40:57,240 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:41:17,596 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:41:17,597 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:41:27,114 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:41:27,115 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:42:46,163 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:42:46,163 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:42:55,321 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:42:55,321 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:43:15,692 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:43:15,692 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:43:25,185 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:43:25,185 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:43:54,343 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:43:54,344 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:44:14,767 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:44:14,767 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:44:24,233 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:44:24,234 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:44:53,405 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:44:53,405 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:45:13,791 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:45:13,791 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:45:23,272 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:45:23,272 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:46:12,837 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:46:12,837 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:46:42,359 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:46:42,359 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:46:51,495 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:46:51,495 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:47:11,870 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:47:11,870 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:47:19,693 INFO [capacityManagement] start correct usage
+
+2020-09-04 09:47:19,699 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-09-04 09:47:20,003 WARN clearConfigHistory start
+
+2020-09-04 09:47:21,330 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:47:21,330 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:47:41,396 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:47:41,397 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:47:50,529 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:47:50,530 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:48:10,926 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:48:10,926 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:48:20,386 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:48:20,387 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:48:40,457 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:48:40,457 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:48:49,556 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:48:49,557 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:49:09,976 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:49:09,976 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:49:19,088 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:49:19,088 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:49:48,917 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:49:48,917 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:50:18,426 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:50:18,426 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:50:22,315 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:50:22,315 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:50:38,533 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:50:38,533 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:50:47,627 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:50:47,627 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:50:52,009 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:50:52,009 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:51:21,525 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:51:21,525 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:51:46,977 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:51:46,978 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:51:51,034 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:51:51,034 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:52:07,071 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:52:07,072 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:52:16,498 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:52:16,498 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:52:20,543 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:52:20,543 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:52:36,592 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:52:36,592 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:52:46,016 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:52:46,016 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:52:50,058 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:52:50,058 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:53:06,112 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:53:06,112 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:53:15,535 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:53:15,535 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:53:19,589 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:53:19,589 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:53:35,641 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:53:35,642 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:53:45,058 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:53:45,059 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:54:05,162 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:54:05,162 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:54:14,283 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:54:14,283 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:54:18,615 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:54:18,615 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:54:34,692 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:54:34,692 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:54:44,107 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:54:44,108 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:55:13,623 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:55:13,623 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:55:42,860 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:55:42,860 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:56:03,253 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:56:03,253 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:56:12,379 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:56:12,379 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:56:32,772 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:56:32,772 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:56:41,911 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:56:41,911 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:57:02,277 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:57:02,277 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:57:11,421 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:57:11,421 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:57:19,706 INFO [capacityManagement] start correct usage
+
+2020-09-04 09:57:19,712 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-09-04 09:57:20,018 WARN clearConfigHistory start
+
+2020-09-04 09:57:31,797 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:57:31,797 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:57:40,949 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:57:40,949 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:58:01,329 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:58:01,329 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:58:30,855 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:58:30,855 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:58:39,979 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:58:39,979 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:58:40,301 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:58:40,301 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:59:09,500 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:59:09,500 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:59:29,892 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:59:29,892 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:59:39,025 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:59:39,026 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 09:59:59,425 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 09:59:59,426 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:00:08,546 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:00:08,546 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:00:28,958 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:00:28,958 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:00:38,076 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:00:38,076 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:00:58,474 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:00:58,474 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:01:07,596 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:01:07,596 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:01:27,995 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:01:27,995 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:01:57,524 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:01:57,524 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:02:06,926 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:02:06,927 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:02:36,154 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:02:36,155 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:02:56,578 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:02:56,578 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:03:05,954 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:03:05,955 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:03:26,110 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:03:26,110 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:03:35,484 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:03:35,484 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:04:05,016 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:04:05,016 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:04:34,532 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:04:34,532 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:05:04,061 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:05:04,061 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:05:33,590 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:05:33,590 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:06:03,122 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:06:03,122 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:06:32,325 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:06:32,325 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:06:32,648 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:06:32,648 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:07:19,722 INFO [capacityManagement] start correct usage
+
+2020-09-04 10:07:19,724 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-09-04 10:07:20,034 WARN clearConfigHistory start
+
+2020-09-04 10:07:22,292 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:07:22,292 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:07:31,691 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:07:31,691 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:08:01,219 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:08:01,219 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:08:30,741 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:08:30,741 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:09:00,267 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:09:00,267 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:09:29,795 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:09:29,795 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:09:59,317 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:09:59,317 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:10:28,834 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:10:28,834 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:11:18,479 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:11:18,479 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:11:27,506 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:11:27,506 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:11:27,879 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:11:27,879 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:11:57,026 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:11:57,026 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:12:17,513 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:12:17,513 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:12:26,925 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:12:26,925 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:12:56,432 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:12:56,432 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:13:25,959 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:13:25,960 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:13:55,489 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:13:55,489 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:14:25,016 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:14:25,016 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:14:54,190 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:14:54,190 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:15:14,674 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:15:14,674 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:15:44,204 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:15:44,204 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:15:53,605 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:15:53,605 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:16:23,132 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:16:23,133 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:16:52,656 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:16:52,656 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:17:19,732 INFO [capacityManagement] start correct usage
+
+2020-09-04 10:17:19,737 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-09-04 10:17:20,042 WARN clearConfigHistory start
+
+2020-09-04 10:17:22,188 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:17:22,188 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:17:51,718 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:17:51,718 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:18:21,241 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:18:21,241 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:18:50,330 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:18:50,330 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:18:50,751 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:18:50,751 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:19:19,860 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:19:19,860 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:19:40,389 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:19:40,389 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:20:09,907 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:20:09,908 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:20:18,885 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:20:18,885 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:20:19,333 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:20:19,333 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:20:48,403 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:20:48,403 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:21:08,946 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:21:08,946 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:21:17,933 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:21:17,933 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:21:38,476 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:21:38,476 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:21:47,463 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:21:47,463 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:22:08,005 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:22:08,005 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:22:16,983 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:22:16,983 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:22:37,524 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:22:37,524 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:23:07,029 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:23:07,029 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:23:16,445 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:23:16,445 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:23:45,532 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:23:45,532 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:23:45,967 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:23:45,967 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:24:15,055 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:24:15,055 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:24:35,605 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:24:35,605 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:24:44,578 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:24:44,578 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:25:05,131 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:25:05,131 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:25:14,108 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:25:14,109 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:25:34,658 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:25:34,659 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:25:43,620 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:25:43,620 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:26:04,185 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:26:04,185 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:26:13,138 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:26:13,138 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:26:33,709 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:26:33,709 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:27:03,228 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:27:03,228 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:27:12,615 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:27:12,615 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:27:19,745 INFO [capacityManagement] start correct usage
+
+2020-09-04 10:27:19,750 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-09-04 10:27:20,055 WARN clearConfigHistory start
+
+2020-09-04 10:27:42,144 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:27:42,144 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:28:11,227 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:28:11,227 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:28:11,663 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:28:11,663 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:28:40,748 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:28:40,748 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:29:01,310 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:29:01,310 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:29:10,272 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:29:10,272 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:29:30,839 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:29:30,839 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:30:00,357 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:30:00,357 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:30:09,778 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:30:09,778 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:30:39,307 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:30:39,307 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:31:08,355 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:31:08,355 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:31:28,925 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:31:28,925 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:31:37,876 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:31:37,876 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:31:58,448 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:31:58,448 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:32:27,964 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:32:27,964 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:32:37,398 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:32:37,398 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:33:06,924 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:33:06,924 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:33:36,454 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:33:36,454 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:34:05,976 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:34:05,976 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:34:35,497 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:34:35,497 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:35:04,546 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:35:04,546 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:35:25,097 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:35:25,097 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:35:34,078 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:35:34,078 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:35:54,624 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:35:54,624 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:36:03,592 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:36:03,592 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:36:24,156 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:36:24,156 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:36:33,603 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:36:33,603 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:37:03,130 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:37:03,130 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:37:19,752 INFO [capacityManagement] start correct usage
+
+2020-09-04 10:37:19,757 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-09-04 10:37:20,064 WARN clearConfigHistory start
+
+2020-09-04 10:37:32,655 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:37:32,655 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:38:02,164 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:38:02,164 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:38:31,677 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:38:31,677 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:39:30,716 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:39:30,716 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:40:00,242 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:40:00,242 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:40:29,307 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:40:29,307 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:40:29,773 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:40:29,773 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:40:58,827 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:40:58,827 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:41:19,401 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:41:19,401 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:41:28,345 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:41:28,345 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:41:48,910 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:41:48,911 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:41:57,873 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:41:57,873 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:42:18,427 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:42:18,427 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:42:27,392 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:42:27,392 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:42:47,956 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:42:47,956 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:43:17,462 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:43:17,462 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:43:26,893 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:43:26,893 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:43:56,412 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:43:56,412 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:44:25,463 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:44:25,463 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:44:25,934 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:44:25,934 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:44:54,980 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:44:54,980 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:45:15,555 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:45:15,555 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:45:24,513 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:45:24,513 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:45:45,077 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:45:45,077 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:45:54,036 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:45:54,036 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:46:14,603 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:46:14,603 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:46:23,556 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:46:23,556 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:46:44,141 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:46:44,141 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:47:13,659 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:47:13,659 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:47:19,762 INFO [capacityManagement] start correct usage
+
+2020-09-04 10:47:19,767 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-09-04 10:47:20,074 WARN clearConfigHistory start
+
+2020-09-04 10:47:23,071 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:47:23,071 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:47:52,131 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:47:52,131 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:47:52,597 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:47:52,597 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:48:21,650 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:48:21,650 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:48:42,232 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:48:42,232 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:49:11,756 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:49:11,756 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:49:21,160 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:49:21,160 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:49:50,673 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:49:50,674 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:50:20,199 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:50:20,199 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:50:49,265 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:50:49,265 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:50:49,728 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:50:49,728 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:51:18,792 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:51:18,792 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:51:39,349 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:51:39,349 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:51:48,322 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:51:48,322 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:52:08,874 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:52:08,874 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:52:17,836 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:52:17,836 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:52:38,394 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:52:38,394 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:52:47,363 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:52:47,363 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:53:07,926 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:53:07,926 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:53:17,341 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:53:17,341 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:53:46,867 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:53:46,867 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:54:16,393 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:54:16,393 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:54:45,900 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:54:45,900 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:55:14,969 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:55:14,969 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:55:35,543 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:55:35,544 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:55:44,497 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:55:44,497 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:56:05,067 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:56:05,067 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:56:14,027 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:56:14,028 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:56:34,585 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:56:34,585 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:56:43,556 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:56:43,556 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:57:04,109 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:57:04,109 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:57:13,068 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:57:13,068 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:57:19,768 INFO [capacityManagement] start correct usage
+
+2020-09-04 10:57:19,774 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-09-04 10:57:20,080 WARN clearConfigHistory start
+
+2020-09-04 10:57:33,630 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:57:33,630 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:57:42,596 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:57:42,596 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:58:03,152 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:58:03,152 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:58:12,123 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:58:12,123 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:58:32,682 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:58:32,682 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:58:41,641 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:58:41,641 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:59:02,205 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:59:02,205 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:59:31,720 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:59:31,720 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 10:59:41,156 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 10:59:41,156 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:00:10,685 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:00:10,685 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:00:40,202 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:00:40,202 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:01:09,716 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:01:09,716 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:01:38,760 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:01:38,760 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:01:59,315 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:01:59,315 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:02:08,278 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:02:08,278 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:02:28,842 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:02:28,842 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:02:37,809 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:02:37,809 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:02:58,369 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:02:58,369 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:03:27,892 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:03:27,892 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:03:37,356 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:03:37,356 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:04:06,883 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:04:06,883 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:04:36,402 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:04:36,402 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:05:05,925 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:05:05,925 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:05:34,911 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:05:34,911 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:05:35,456 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:05:35,456 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:06:04,439 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:06:04,439 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:06:25,010 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:06:25,010 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:06:54,559 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:06:54,559 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:07:03,491 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:07:03,491 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:07:04,025 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:07:04,025 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:07:19,782 INFO [capacityManagement] start correct usage
+
+2020-09-04 11:07:19,786 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-09-04 11:07:20,093 WARN clearConfigHistory start
+
+2020-09-04 11:07:33,018 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:07:33,018 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:07:53,591 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:07:53,592 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:08:02,536 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:08:02,536 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:08:23,118 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:08:23,118 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:08:32,061 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:08:32,061 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:08:52,638 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:08:52,638 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:09:01,580 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:09:01,580 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:09:22,164 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:09:22,164 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:09:31,103 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:09:31,103 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:09:51,686 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:09:51,686 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:10:01,165 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:10:01,165 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:10:30,694 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:10:30,694 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:10:59,683 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:10:59,683 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:11:00,225 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:11:00,225 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:11:29,208 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:11:29,208 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:11:49,782 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:11:49,782 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:11:58,740 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:11:58,740 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:12:19,313 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:12:19,313 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:12:28,265 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:12:28,265 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:12:48,838 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:12:48,838 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:12:57,783 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:12:57,783 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:13:18,356 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:13:18,356 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:13:27,301 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:13:27,301 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:13:47,880 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:13:47,880 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:14:17,403 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:14:17,403 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:14:26,890 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:14:26,890 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:14:55,843 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:14:55,843 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:14:56,416 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:14:56,416 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:15:25,369 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:15:25,369 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:15:45,976 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:15:45,976 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:16:15,498 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:16:15,498 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:16:24,983 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:16:24,983 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:16:54,501 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:16:54,501 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:17:19,793 INFO [capacityManagement] start correct usage
+
+2020-09-04 11:17:19,798 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-09-04 11:17:20,102 WARN clearConfigHistory start
+
+2020-09-04 11:17:24,027 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:17:24,027 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:17:53,548 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:17:53,548 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:18:22,513 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:18:22,513 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:18:23,071 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:18:23,071 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:18:43,112 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:18:43,112 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:19:12,632 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:19:12,632 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:19:22,120 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:19:22,120 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:19:51,644 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:19:51,644 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:20:21,164 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:20:21,164 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:20:50,692 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:20:50,692 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:21:20,224 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:21:20,224 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:21:49,754 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:21:49,754 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:22:18,699 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:22:18,699 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:22:19,271 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:22:19,271 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:23:08,828 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:23:08,828 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:23:18,321 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:23:18,321 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:23:47,851 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:23:47,851 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:24:17,358 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:24:17,359 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:24:46,321 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:24:46,321 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:24:46,878 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:24:46,878 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:25:15,828 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:25:15,828 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:25:16,389 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:25:16,389 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:25:45,351 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:25:45,351 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:26:05,935 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:26:05,935 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:26:35,458 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:26:35,458 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:26:44,396 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:26:44,396 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:26:44,951 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:26:44,951 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:27:13,925 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:27:13,926 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:27:19,805 INFO [capacityManagement] start correct usage
+
+2020-09-04 11:27:19,873 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-09-04 11:27:20,115 WARN clearConfigHistory start
+
+2020-09-04 11:27:34,495 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:27:34,496 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:27:43,455 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:27:43,455 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:28:04,016 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:28:04,016 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:28:12,977 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:28:12,977 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:28:33,537 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:28:33,537 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:28:42,509 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:28:42,509 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:29:03,057 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:29:03,057 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:29:12,014 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:29:12,014 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:29:32,587 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:29:32,587 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:29:41,546 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:29:41,546 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:30:02,109 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:30:02,109 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:30:11,079 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:30:11,079 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:30:31,630 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:30:31,630 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:31:01,142 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:31:01,142 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:31:10,104 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:31:10,105 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:31:10,649 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:31:10,649 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:31:39,617 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:31:39,617 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:32:00,216 INFO listen config id:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:32:00,216 INFO listen config id 2:minio.configDEFAULT_GROUP078dfb00bae1214f0ee7471ba5a0e891
+
+2020-09-04 11:32:09,146 INFO listen config id:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 11:32:09,146 INFO listen config id 2:gateway-refresh.jsonDEFAULT_GROUP3db86e08b1a205cdc1202379b066c9d3
+
+2020-09-04 14:19:34,150 INFO The server IP list of Nacos is [192.168.2.157:8848, 192.168.2.157:8849, 192.168.2.157:8850]
+
+2020-09-04 14:19:34,307 INFO Starting Nacos v1.2.1 on DESKTOP-0KKUC7E with PID 11784 (D:\projectsources\cloud\tools\nacos-cluster\8849\target\nacos-server.jar started by zyl in D:\projectsources\cloud\tools\nacos-cluster\8849\bin)
+
+2020-09-04 14:19:34,309 INFO No active profile set, falling back to default profiles: default
+
+2020-09-04 14:19:35,234 INFO Nacos is starting...
+
+2020-09-04 14:19:36,243 INFO Nacos is starting...
+
+2020-09-04 14:19:37,256 INFO Nacos is starting...
+
+2020-09-04 14:19:38,267 INFO Nacos is starting...
+
+2020-09-04 14:19:39,285 INFO Nacos is starting...
+
+2020-09-04 14:19:40,299 INFO Nacos is starting...
+
+2020-09-04 14:19:41,312 INFO Nacos is starting...
+
+2020-09-04 14:19:42,326 INFO Nacos is starting...
+
+2020-09-04 14:19:43,326 INFO Nacos is starting...
+
+2020-09-04 14:19:44,341 INFO Nacos is starting...
+
+2020-09-04 14:19:45,348 INFO Nacos is starting...
+
+2020-09-04 14:19:46,356 INFO Nacos is starting...
+
+2020-09-04 14:19:47,364 INFO Nacos is starting...
+
+2020-09-04 14:19:48,375 INFO Nacos is starting...
+
+2020-09-04 14:19:48,706 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$9b21802a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-09-04 14:19:49,380 INFO Nacos is starting...
+
+2020-09-04 14:19:49,449 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-09-04 14:19:49,547 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2a8448fa' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-09-04 14:19:49,551 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$bff622dc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-09-04 14:19:49,609 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-09-04 14:19:50,389 INFO Nacos is starting...
+
+2020-09-04 14:19:51,448 INFO Nacos is starting...
+
+2020-09-04 14:19:52,479 INFO Nacos is starting...
+
+2020-09-04 14:19:53,626 INFO Nacos is starting...
+
+2020-09-04 14:19:54,653 INFO Nacos is starting...
+
+2020-09-04 14:19:55,660 INFO Nacos is starting...
+
+2020-09-04 14:19:56,597 INFO Tomcat initialized with port(s): 8849 (http)
+
+2020-09-04 14:19:56,669 INFO Nacos is starting...
+
+2020-09-04 14:19:56,859 INFO Initializing ProtocolHandler ["http-nio-8849"]
+
+2020-09-04 14:19:57,273 INFO Starting service [Tomcat]
+
+2020-09-04 14:19:57,274 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2020-09-04 14:19:57,510 INFO An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
+
+2020-09-04 14:19:57,511 INFO Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+
+2020-09-04 14:19:57,512 INFO APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+
+2020-09-04 14:19:57,512 INFO APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+
+2020-09-04 14:19:57,674 INFO Nacos is starting...
+
+2020-09-04 14:19:58,682 INFO Nacos is starting...
+
+2020-09-04 14:19:59,691 INFO Nacos is starting...
+
+2020-09-04 14:19:59,997 INFO OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+
+2020-09-04 14:20:00,697 INFO Nacos is starting...
+
+2020-09-04 14:20:01,706 INFO Nacos is starting...
+
+2020-09-04 14:20:02,716 INFO Nacos is starting...
+
+2020-09-04 14:20:03,200 INFO Initializing Spring embedded WebApplicationContext
+
+2020-09-04 14:20:03,200 INFO Root WebApplicationContext: initialization completed in 28619 ms
+
+2020-09-04 14:20:03,722 INFO Nacos is starting...
+
+2020-09-04 14:20:04,731 INFO Nacos is starting...
+
+2020-09-04 14:20:05,739 INFO Nacos is starting...
+
+2020-09-04 14:20:05,790 INFO Use Mysql 8 as the driver
+
+2020-09-04 14:20:06,741 INFO Nacos is starting...
+
+2020-09-04 14:20:07,757 INFO Nacos is starting...
+
+2020-09-04 14:20:08,767 INFO Nacos is starting...
+
+2020-09-04 14:20:09,777 INFO Nacos is starting...
+
+2020-09-04 14:20:10,783 INFO Nacos is starting...
+
+2020-09-04 14:20:11,791 INFO Nacos is starting...
+
+2020-09-04 14:20:12,617 INFO Reflections took 161 ms to scan 1 urls, producing 6 keys and 24 values 
+
+2020-09-04 14:20:12,804 INFO Nacos is starting...
+
+2020-09-04 14:20:12,922 INFO Reflections took 4 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2020-09-04 14:20:12,932 INFO Reflections took 6 ms to scan 1 urls, producing 3 keys and 15 values 
+
+2020-09-04 14:20:13,816 INFO Nacos is starting...
+
+2020-09-04 14:20:14,830 INFO Nacos is starting...
+
+2020-09-04 14:20:15,711 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2020-09-04 14:20:15,860 INFO Nacos is starting...
+
+2020-09-04 14:20:15,989 INFO Adding welcome page: class path resource [static/index.html]
+
+2020-09-04 14:20:17,240 INFO Nacos is starting...
+
+2020-09-04 14:20:17,489 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2020-09-04 14:20:17,643 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@557a1e2d, org.springframework.security.web.context.SecurityContextPersistenceFilter@62435e70, org.springframework.security.web.header.HeaderWriterFilter@305f7627, org.springframework.security.web.csrf.CsrfFilter@4f071df8, org.springframework.security.web.authentication.logout.LogoutFilter@275fe372, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@38be305c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3234f74e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@26a4842b, org.springframework.security.web.session.SessionManagementFilter@6cbcf243, org.springframework.security.web.access.ExceptionTranslationFilter@56ace400]
+
+2020-09-04 14:20:17,803 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2020-09-04 14:20:17,879 INFO Initializing ExecutorService 'taskScheduler'
+
+2020-09-04 14:20:18,381 INFO Nacos is starting...
+
+2020-09-04 14:20:18,650 INFO Starting ProtocolHandler ["http-nio-8849"]
+
+2020-09-04 14:20:18,654 INFO Using a shared selector for servlet write/read
+
+2020-09-04 14:20:18,893 INFO Tomcat started on port(s): 8849 (http) with context path '/nacos'
+
+2020-09-04 14:20:19,290 INFO Started Nacos in 51.391 seconds (JVM running for 54.997)
+
+2020-09-04 14:20:19,292 INFO Nacos logs files: D:\projectsources\cloud\tools\nacos-cluster\8849\logs\
+
+2020-09-04 14:20:19,298 INFO Nacos conf files: D:\projectsources\cloud\tools\nacos-cluster\8849\conf\
+
+2020-09-04 14:20:19,299 INFO Nacos data files: D:\projectsources\cloud\tools\nacos-cluster\8849\data\
+
+2020-09-04 14:20:19,300 INFO Nacos started successfully in cluster mode.
+
+2020-09-04 14:20:19,792 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2020-09-04 14:20:19,792 INFO Initializing Servlet 'dispatcherServlet'
+
+2020-09-04 14:20:19,837 INFO Completed initialization in 45 ms
+
+2020-09-04 14:30:14,127 INFO [capacityManagement] start correct usage
+
+2020-09-04 14:30:14,208 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-09-04 14:30:14,577 WARN clearConfigHistory start
+
+2020-09-04 14:40:14,211 INFO [capacityManagement] start correct usage
+
+2020-09-04 14:40:14,215 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-09-04 14:40:14,728 WARN clearConfigHistory start
+
+2020-09-04 14:50:14,260 INFO [capacityManagement] start correct usage
+
+2020-09-04 14:50:14,271 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-09-04 14:50:14,772 WARN clearConfigHistory start
+
+2020-09-04 15:00:14,278 INFO [capacityManagement] start correct usage
+
+2020-09-04 15:00:14,281 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-09-04 15:00:14,780 WARN clearConfigHistory start
+
+2020-09-04 15:10:14,285 INFO [capacityManagement] start correct usage
+
+2020-09-04 15:10:14,305 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-09-04 15:10:14,795 WARN clearConfigHistory start
+
+2020-09-04 15:20:14,306 INFO [capacityManagement] start correct usage
+
+2020-09-04 15:20:14,313 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-09-04 15:20:14,807 WARN clearConfigHistory start
+
+2020-09-04 15:30:14,317 INFO [capacityManagement] start correct usage
+
+2020-09-04 15:30:14,336 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-09-04 15:30:14,832 WARN clearConfigHistory start
+
+2020-09-04 15:40:14,378 INFO [capacityManagement] start correct usage
+
+2020-09-04 15:40:14,390 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-09-04 15:40:14,843 WARN clearConfigHistory start
+
+2020-09-04 15:50:14,401 INFO [capacityManagement] start correct usage
+
+2020-09-04 15:50:14,404 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-09-04 15:50:14,885 WARN clearConfigHistory start
+

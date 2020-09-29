@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cloud.web.dao.StageCategoryDao">
+  <resultMap id="BaseResultMap" type="com.cloud.bean.web.StageCategory">
+    <id column="CATEGORY_ID" jdbcType="INTEGER" property="categoryId" />
+    <result column="CATEGORY_NAME" jdbcType="VARCHAR" property="categoryName" />
+    <result column="PARENT_ID" jdbcType="INTEGER" property="parentId" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="UPDATE_TIME" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="DEL_FLAG" jdbcType="VARCHAR" property="delFlag" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+    <result column="DATA_YHBS" jdbcType="VARCHAR" property="dataYhbs" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    CATEGORY_ID, CATEGORY_NAME, PARENT_ID, CREATE_TIME, UPDATE_TIME, DEL_FLAG, REMARK, 
+    DATA_YHBS
+  </sql>
+
+</mapper>

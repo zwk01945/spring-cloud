@@ -1,0 +1,20 @@
+2020-09-24 09:17:54,464 INFO DEFAULT_GROUP@@spring-cloud-web {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.157:9011:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-24 09:17:54,468 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-web, ips: 192.168.2.157:9011_true,
+
+2020-09-24 17:22:31,554 INFO {POS} {IP-DISABLED} valid: 192.168.2.157:9011@DEFAULT@DEFAULT_GROUP@@spring-cloud-web, region: unknown, msg: client timeout after 15000, last beat: 1600939331698
+
+2020-09-24 17:22:50,860 INFO DEFAULT_GROUP@@spring-cloud-web {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.157:9011:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-09-24 17:22:50,862 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-web, ips: 
+
+2020-09-24 17:23:14,446 INFO DEFAULT_GROUP@@spring-cloud-web {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.157:9011:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-09-24 17:23:14,446 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-web, ips: 192.168.2.157:9011_true,
+
+2020-09-24 17:28:10,153 INFO {POS} {IP-DISABLED} valid: 192.168.2.157:9011@DEFAULT@DEFAULT_GROUP@@spring-cloud-web, region: unknown, msg: client timeout after 15000, last beat: 1600939671203
+
+2020-09-24 17:28:12,550 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-cloud-web, ips: 192.168.2.157:9011_false,
+
+2020-09-24 17:28:17,571 INFO service: DEFAULT_GROUP@@spring-cloud-web {POS} {IP-ENABLED} valid: 192.168.2.157:9011@DEFAULT, region: unknown, msg: client beat ok
+

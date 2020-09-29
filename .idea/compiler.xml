@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-slaveservice" />
         <module name="spring-cloud-msgpush" />
         <module name="test" />
         <module name="spring-cloud-masterservice" />
         <module name="spring-cloud-common" />
-        <module name="spring-cloud-slaveservice" />
+        <module name="spring-cloud-minio-slave" />
         <module name="spring-cloud-web" />
         <module name="spring-cloud-minio" />
         <module name="spring-cloud-gateway" />

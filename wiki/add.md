@@ -8,3 +8,5 @@
 - 配置
     - 新增nginx负载均衡GATEWAY，端口为9015和9016,nginx的端口为5000
     - 新增脚本刷新语句refresh
+- 公共类
+    - 新增FTPClient上传和下载ftp资源

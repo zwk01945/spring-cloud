@@ -7,6 +7,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>minio</name>
     <description>图片文件服务器</description>
+    <packaging>jar</packaging>
 
     <parent>
         <groupId>com.example</groupId>
@@ -19,17 +20,19 @@
         <dependency>
             <groupId>io.minio</groupId>
             <artifactId>minio</artifactId>
-            <version>${minio.version}</version>
+            <version>7.1.0</version>
         </dependency>
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
+
         <dependency>
             <groupId>com.example</groupId>
             <artifactId>common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
@@ -86,6 +89,7 @@
                 <version>2.3.0.RELEASE</version>
                 <configuration>
                     <mainClass>com.cloud.minio.MinioApplication</mainClass>
+                    <includeSystemScope>true</includeSystemScope>
                 </configuration>
                 <executions>
                     <execution>

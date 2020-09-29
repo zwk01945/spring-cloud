@@ -1,0 +1,84 @@
+2020-09-22 09:27:42,262 INFO notifyConnectTimeout:200
+
+2020-09-22 09:27:42,280 INFO notifySocketTimeout:8000
+
+2020-09-22 09:27:42,280 INFO isHealthCheck:true
+
+2020-09-22 09:27:42,280 INFO maxHealthCheckFailCount:12
+
+2020-09-22 09:27:42,280 INFO maxContent:10485760
+
+2020-09-22 09:27:42,290 INFO spring.datasource.platform:mysql
+
+2020-09-22 09:27:45,979 INFO ServerListService address-server port:8080
+
+2020-09-22 09:27:45,983 INFO ADDRESS_SERVER_URL:http://jmenv.tbsite.net:8080/nacos/serverlist
+
+2020-09-22 09:27:45,984 WARN [serverlist] updated to [192.168.2.157:8848]
+
+2020-09-22 09:27:46,107 WARN DumpService start
+
+2020-09-22 09:27:46,110 INFO start clear all config-info.
+
+2020-09-22 09:27:46,207 INFO clear all config-info success.
+
+2020-09-22 09:27:46,208 WARN clear all config-info-tenant failed.
+
+2020-09-22 09:27:46,365 INFO [all-dump] 501 / 501
+
+2020-09-22 09:27:46,365 INFO start clear all config-info-beta.
+
+2020-09-22 09:27:46,366 WARN clear all config-info-beta failed.
+
+2020-09-22 09:27:46,366 WARN clear all config-info-beta-tenant failed.
+
+2020-09-22 09:27:46,370 INFO start clear all config-info-tag.
+
+2020-09-22 09:27:46,370 WARN clear all config-info-tag failed.
+
+2020-09-22 09:27:46,370 WARN clear all config-info-tag-tenant failed.
+
+2020-09-22 09:27:46,400 WARN initialDelay:265
+
+2020-09-22 16:56:04,977 INFO notifyConnectTimeout:200
+
+2020-09-22 16:56:04,977 INFO notifySocketTimeout:8000
+
+2020-09-22 16:56:04,978 INFO isHealthCheck:true
+
+2020-09-22 16:56:04,978 INFO maxHealthCheckFailCount:12
+
+2020-09-22 16:56:04,978 INFO maxContent:10485760
+
+2020-09-22 16:56:04,978 INFO spring.datasource.platform:mysql
+
+2020-09-22 16:56:11,939 INFO ServerListService address-server port:8080
+
+2020-09-22 16:56:11,939 INFO ADDRESS_SERVER_URL:http://jmenv.tbsite.net:8080/nacos/serverlist
+
+2020-09-22 16:56:11,941 WARN [serverlist] updated to [192.168.2.157:8848]
+
+2020-09-22 16:56:12,091 WARN DumpService start
+
+2020-09-22 16:56:12,096 INFO start clear all config-info.
+
+2020-09-22 16:56:12,294 INFO clear all config-info success.
+
+2020-09-22 16:56:12,295 WARN clear all config-info-tenant failed.
+
+2020-09-22 16:56:12,551 INFO [all-dump] 501 / 501
+
+2020-09-22 16:56:12,552 INFO start clear all config-info-beta.
+
+2020-09-22 16:56:12,552 WARN clear all config-info-beta failed.
+
+2020-09-22 16:56:12,552 WARN clear all config-info-beta-tenant failed.
+
+2020-09-22 16:56:12,557 INFO start clear all config-info-tag.
+
+2020-09-22 16:56:12,557 WARN clear all config-info-tag failed.
+
+2020-09-22 16:56:12,557 WARN clear all config-info-tag-tenant failed.
+
+2020-09-22 16:56:12,671 WARN initialDelay:162
+
